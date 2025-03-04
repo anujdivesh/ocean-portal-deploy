@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld
+StyledLayerDescriptor.xsd" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resc="http://www.resc.reading.ac.uk">
+    <NamedLayer>
+        <se:Name>$layerName</se:Name> <!-- Placeholder for the layer name -->
+        <UserStyle>
+            <se:CoverageStyle>
+                <se:Rule>
+                    <se:RasterSymbolizer>
+                        <!-- Opacity placeholder for controlling transparency -->
+                        <se:Opacity>$opacity</se:Opacity>
+
+                        <!-- Define the ColorMap with Categorize -->
+                        <se:ColorMap>
+                            <se:Categorize fallbackValue="$bgColor">
+
+                                <!-- Categorize based on the value of Rasterdata -->
+                                <se:LookupValue>Rasterdata</se:LookupValue>
+
+                                <!-- Below 29.3, make it transparent -->
+                                <se:Value>transparent</se:Value>
+                                <se:LookupValue>0</se:LookupValue>
+
+                                <!-- Between 29.3 and 40.0, dark red -->
+                                <se:Value>#800000</se:Value>
+                                <se:LookupValue>29.3</se:LookupValue>
+
+                                <!-- Above 40.0, bright red -->
+                                <se:Value>#FF0000</se:Value>
+                                <se:LookupValue>40.0</se:LookupValue>
+
+                            </se:Categorize>
+                        </se:ColorMap>
+                    </se:RasterSymbolizer>
+                </se:Rule>
+            </se:CoverageStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor version="1.0.0" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd">
+
+  <NamedLayer>
+    <!-- Layer Name Placeholder for Dynamic Substitution -->
+    <Name>$layerName</Name> <!-- This will be replaced dynamically with the layer name -->
+    
+    <UserStyle>
+      <Title>Dynamic Color Map</Title>
+      <se:CoverageStyle>
+        <se:Rule>
+          <se:RasterSymbolizer>
+            <!-- Dynamic Opacity if set, else use default -->
+            <se:Opacity>$opacity</se:Opacity>
+            
+            <!-- Color Mapping for Discrete Values -->
+            <se:ColorMap>
+              <!-- Using the $bgColor for the background color if provided -->
+              <se:ColorMapEntry color="$bgColor" quantity="0" label="Background"/>
+              
+              <!-- Mapping Discrete Values to Colors -->
+              <se:ColorMapEntry color="red" quantity="0" label="Category 0"/>
+              <se:ColorMapEntry color="yellow" quantity="1" label="Category 1"/>
+              <se:ColorMapEntry color="blue" quantity="2" label="Category 2"/>
+              <se:ColorMapEntry color="green" quantity="3" label="Category 3"/>
+              <se:ColorMapEntry color="white" quantity="4" label="Category 4"/>
+              
+              <!-- Additional Random Colors for Discrete Values -->
+              <se:ColorMapEntry color="#F44336" quantity="5" label="Category 5"/>
+              <se:ColorMapEntry color="#9C27B0" quantity="6" label="Category 6"/>
+              <se:ColorMapEntry color="#2196F3" quantity="7" label="Category 7"/>
+              <se:ColorMapEntry color="#4CAF50" quantity="8" label="Category 8"/>
+              <se:ColorMapEntry color="#FFEB3B" quantity="9" label="Category 9"/>
+            </se:ColorMap>
+          </se:RasterSymbolizer>
+        </se:Rule>
+      </se:CoverageStyle>
+    </UserStyle>
+  </NamedLayer>
+
+</StyledLayerDescriptor>

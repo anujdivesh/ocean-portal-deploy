@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld
+StyledLayerDescriptor.xsd" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
+xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resc="http://www.resc.reading.ac.uk">
+
+  <NamedLayer>
+    <se:Name>bleaching_alert_area</se:Name>
+    <UserStyle>
+      <se:CoverageStyle>
+        <se:Rule>
+          <se:RasterSymbolizer>
+            <se:Opacity>$opacity</se:Opacity>
+            <se:ColorMap>
+              <resc:Segment fallbackValue="$bgColor">
+                <se:LookupValue>Rasterdata</se:LookupValue>
+                <resc:BelowMinValue>$belowMinColor</resc:BelowMinValue>
+                <resc:ValueList>
+                  <!-- Discrete Value to Color Mapping -->
+                  <se:Name>0</se:Name>
+                  <se:Color>red</se:Color>
+                  <se:Name>1</se:Name>
+                  <se:Color>yellow</se:Color>
+                  <se:Name>2</se:Name>
+                  <se:Color>blue</se:Color>
+                  <se:Name>3</se:Name>
+                  <se:Color>green</se:Color>
+                  <se:Name>4</se:Name>
+                  <se:Color>white</se:Color>
+                  <se:Name>5</se:Name>
+                  <se:Color>#F44336</se:Color> <!-- Random Red -->
+                  <se:Name>6</se:Name>
+                  <se:Color>#9C27B0</se:Color> <!-- Random Purple -->
+                  <se:Name>7</se:Name>
+                  <se:Color>#2196F3</se:Color> <!-- Random Blue -->
+                  <se:Name>8</se:Name>
+                  <se:Color>#4CAF50</se:Color> <!-- Random Green -->
+                  <se:Name>9</se:Name>
+                  <se:Color>#FFEB3B</se:Color> <!-- Random Yellow -->
+                </resc:ValueList>
+                <resc:AboveMaxValue>$aboveMaxColor</resc:AboveMaxValue>
+                <resc:Range>
+                  <!-- Set a range that matches your data range -->
+                  <resc:Minimum>$scaleMin</resc:Minimum>
+                  <resc:Maximum>$scaleMax</resc:Maximum>
+                  <resc:Spacing>discrete</resc:Spacing>
+                </resc:Range>
+                <resc:NumberOfSegments>10</resc:NumberOfSegments> <!-- 10 distinct color segments -->
+              </resc:Segment>
+            </se:ColorMap>
+          </se:RasterSymbolizer>
+        </se:Rule>
+      </se:CoverageStyle>
+    </UserStyle>
+  </NamedLayer>
+
+</StyledLayerDescriptor>

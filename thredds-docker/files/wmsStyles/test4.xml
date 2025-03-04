@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0.0">
+  <NamedLayer>
+    <Name>bleaching_alert_area</Name>
+    <UserStyle>
+      <Title>Discrete Color Map Example</Title>
+      <FeatureTypeStyle>
+        <Rule>
+          <Title>Value 1</Title>
+          <Filter><PropertyIsEqualTo><PropertyName>value</PropertyName><Literal>1</Literal></PropertyIsEqualTo></Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#FF0000</CssParameter> <!-- Red -->
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Value 2</Title>
+          <Filter><PropertyIsEqualTo><PropertyName>value</PropertyName><Literal>2</Literal></PropertyIsEqualTo></Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#00FF00</CssParameter> <!-- Green -->
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Value 3</Title>
+          <Filter><PropertyIsEqualTo><PropertyName>value</PropertyName><Literal>3</Literal></PropertyIsEqualTo></Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#0000FF</CssParameter> <!-- Blue -->
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Value 4</Title>
+          <Filter><PropertyIsEqualTo><PropertyName>value</PropertyName><Literal>4</Literal></PropertyIsEqualTo></Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#FFFF00</CssParameter> <!-- Yellow -->
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+        <Rule>
+          <Title>Value 5</Title>
+          <Filter><PropertyIsEqualTo><PropertyName>value</PropertyName><Literal>5</Literal></PropertyIsEqualTo></Filter>
+          <PolygonSymbolizer>
+            <Fill>
+              <CssParameter name="fill">#FF00FF</CssParameter> <!-- Magenta -->
+            </Fill>
+          </PolygonSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+    </UserStyle>
+  </NamedLayer>
+</StyledLayerDescriptor>

@@ -1,0 +1,20 @@
+version: '3'
+services:
+  thredds-production:
+    image: unidata/thredds-docker:5.5
+    ports:
+      - "${PORT}:8080"
+    container_name: thredds
+    volumes:
+      - ${THREDDS}/tomcat:/usr/local/tomcat/logs/
+      - ${THREDDS}/thredds:/usr/local/tomcat/content/thredds/logs/
+      - ${TOMCAT_USERS}/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
+      - ${THREDDS}/thredds:/usr/local/tomcat/content/thredds
+      - ${DATA}:/usr/local/data
+      - ${THREDDS}/files/threddsConfig.xml:/usr/local/tomcat/content/thredds/threddsConfig.xml
+      - ${THREDDS}/files/catalog.xml:/usr/local/tomcat/content/thredds/catalog.xml
+      - ${THREDDS}/files/wmsPalettes:/usr/local/tomcat/content/thredds/wmsPalettes
+      - ${THREDDS}/files/wmsStyles:/usr/local/tomcat/content/thredds/wmsStyles
+      - ${THREDDS}/files/web.xml:/usr/local/tomcat/conf/web.xml
+    env_file:
+      - "compose${THREDDS_COMPOSE_ENV_LOCAL}.env"

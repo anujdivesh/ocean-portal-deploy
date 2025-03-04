@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}Monitor{% endblock %}</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <script>
+    function updateTime() {
+        const now = new Date();
+        const options = { 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric', 
+            hour: '2-digit', 
+            minute: '2-digit', 
+            second: '2-digit', 
+            hour12: true 
+        };
+        document.getElementById('current-time').textContent = now.toLocaleString('en-US', options);
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        updateTime(); // Update time immediately when the page loads
+        setInterval(updateTime, 1000); // Update time every second
+    });
+</script>
+</head>
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2>Pacific Ocean Portal - Data Download Monitoring</h2>  <p style="color:blue">The current time is: <span id="current-time"></span></p>
+                <br/>
+              <table id="bootstrapdatatable" class="table table-bordered" width="100%">
+                <thead style="background-color: #FF8C00; color:white;">
+                  <tr>
+                    <th>ID</th>
+                    <th>Task Type</th>
+                    <th>Task Name</th>
+                    <th>Last Runtime</th>
+                    <th>Next Runtime</th>
+                    <th>Beta Health</th>
+                    <th>No.Success</th>
+                    <th>No.Fail</th>
+                    <th>No.Attempt</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for rs_emp in employees %}
+                    <tr>
+                      <td>{{ rs_emp.id }}</td>
+                    <td>{{ rs_emp.class_id }}</td>
+                    <td>{{ rs_emp.task_name }}</td>
+                    <td>{{ rs_emp.last_run_time }}</td>
+                    <td>{{ rs_emp.next_run_time }}</td>
+                    <td>
+                        {% if rs_emp.health == "Excellent" %}
+                        <span class="badge badge-success"> {{ rs_emp.health }}</span>
+                    {% elif  rs_emp.health == "Good"%}
+                    <span class="badge badge-primary"> {{ rs_emp.health }}</span>
+                    {% else %}
+                    <span class="badge badge-danger"> {{ rs_emp.health }}</span>
+                    {% endif %}
+
+
+                    </td>
+                    <td>{{ rs_emp.success_count }}</td>
+                    <td>{{ rs_emp.fail_count }}</td>
+                    
+                    <td><span class="badge badge-secondary"> {{ rs_emp.attempt_count }}</span></td>
+                    </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+             
+            <nav aria-label="...">
+            {% if employees.has_other_pages %}
+              <ul class="pagination">
+                {% if employees.has_previous %}
+                  <li class="page-item"><a class="page-link" href="?page={{ employees.previous_page_number }}">Previous</a></li>
+                {% else %}
+                  <li class="page-item disabled"><span class="page-link">Previous</span></li>
+                {% endif %}
+       
+                {% for i in employees.paginator.page_range %}
+                  {% if employees.number == i %}
+                  <li class="page-item active" aria-current="page"><a class="page-link" href="#">{{ i }}</a></li>
+                  {% else %}
+                  <li class="page-item"><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+                  {% endif %}
+                {% endfor %}
+       
+                {% if employees.has_next %}
+                  <li class="page-item"><a class="page-link" href="?page={{ employees.next_page_number }}">Next</a></li>
+                {% else %}
+                  <li class="page-item disabled"><span class="page-link">Next</span></li>
+                {% endif %}
+              </ul>
+            {% endif %}
+            </nav>
+       
+          </div>        
+        </div> 
+      </div> 
+
+  {% block content %}
+  {% endblock %}
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

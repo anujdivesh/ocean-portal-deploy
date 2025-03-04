@@ -1,0 +1,127 @@
+28-Jan-2025 23:21:38.308 SEVERE [http-nio-8080-exec-1354] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+		at java.base/java.util.Arrays.copyOf(Arrays.java:3689)
+		at java.base/java.util.Vector.grow(Vector.java:261)
+		at java.base/java.util.Vector.grow(Vector.java:266)
+		at java.base/java.util.Vector.add(Vector.java:813)
+		at java.base/java.util.Vector.addElement(Vector.java:648)
+		at gov.noaa.pmel.sgt.ContourLevels.addLevel(ContourLevels.java:206)
+		at uk.ac.rdg.resc.edal.graphics.style.ContourLayer.drawIntoImage(ContourLayer.java:220)
+		at uk.ac.rdg.resc.edal.graphics.style.GriddedImageLayer.drawIntoImage(GriddedImageLayer.java:180)
+		at uk.ac.rdg.resc.edal.graphics.style.ImageLayer.drawImage(ImageLayer.java:51)
+		at uk.ac.rdg.resc.edal.graphics.style.MapImage.drawImage(MapImage.java:70)
+		at uk.ac.rdg.resc.edal.wms.WmsServlet.getMap(WmsServlet.java:533)
+		at uk.ac.rdg.resc.edal.wms.WmsServlet.dispatchWmsRequest(WmsServlet.java:365)
+		at thredds.server.wms.ThreddsWmsServlet.dispatchWmsRequest(ThreddsWmsServlet.java:119)
+		at uk.ac.rdg.resc.edal.wms.WmsServlet.doGet(WmsServlet.java:300)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+		at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+		at thredds.servlet.filter.RequestBracketingLogMessageFilter.doFilter(RequestBracketingLogMessageFilter.java:50)
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+		at thredds.servlet.filter.RequestQueryFilter.doFilter(RequestQueryFilter.java:90)
+28-Jan-2025 23:21:54.212 SEVERE [http-nio-8080-exec-1312] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+		at java.base/java.util.Arrays.copyOf(Arrays.java:3689)
+		at java.base/java.util.Vector.grow(Vector.java:261)
+		at java.base/java.util.Vector.grow(Vector.java:266)
+		at java.base/java.util.Vector.add(Vector.java:813)
+		at java.base/java.util.Vector.addElement(Vector.java:648)
+		at gov.noaa.pmel.sgt.ContourLevels.addLevel(ContourLevels.java:206)
+		at uk.ac.rdg.resc.edal.graphics.style.ContourLayer.drawIntoImage(ContourLayer.java:220)
+		at uk.ac.rdg.resc.edal.graphics.style.GriddedImageLayer.drawIntoImage(GriddedImageLayer.java:180)
+		at uk.ac.rdg.resc.edal.graphics.style.ImageLayer.drawImage(ImageLayer.java:51)
+		at uk.ac.rdg.resc.edal.graphics.style.MapImage.drawImage(MapImage.java:70)
+		at uk.ac.rdg.resc.edal.wms.WmsServlet.getMap(WmsServlet.java:533)
+		at uk.ac.rdg.resc.edal.wms.WmsServlet.dispatchWmsRequest(WmsServlet.java:365)
+		at thredds.server.wms.ThreddsWmsServlet.dispatchWmsRequest(ThreddsWmsServlet.java:119)
+		at uk.ac.rdg.resc.edal.wms.WmsServlet.doGet(WmsServlet.java:300)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+		at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+		at thredds.servlet.filter.RequestBracketingLogMessageFilter.doFilter(RequestBracketingLogMessageFilter.java:50)
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+		at thredds.servlet.filter.RequestQueryFilter.doFilter(RequestQueryFilter.java:90)
+28-Jan-2025 23:22:12.016 SEVERE [http-nio-8080-exec-1331] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+28-Jan-2025 23:23:12.996 SEVERE [http-nio-8080-exec-1340] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+28-Jan-2025 23:23:13.026 SEVERE [http-nio-8080-exec-1352] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+28-Jan-2025 23:23:23.876 SEVERE [http-nio-8080-exec-1337] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+28-Jan-2025 23:24:25.693 SEVERE [http-nio-8080-exec-1339] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+28-Jan-2025 23:25:16.488 SEVERE [http-nio-8080-exec-1330] org.apache.coyote.AbstractProtocol$ConnectionHandler.process Failed to complete processing of a request
+	java.lang.OutOfMemoryError: Java heap space
+28-Jan-2025 23:25:54.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat
+28-Jan-2025 23:25:54.984 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jul 2 2024 12:35:51 UTC
+28-Jan-2025 23:25:54.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.91.0
+28-Jan-2025 23:25:54.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jan-2025 23:25:54.985 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-1021-aws
+28-Jan-2025 23:25:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2025 23:25:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /opt/java/openjdk
+28-Jan-2025 23:25:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.24+8
+28-Jan-2025 23:25:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Eclipse Adoptium
+28-Jan-2025 23:25:54.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /usr/local/tomcat
+28-Jan-2025 23:25:54.987 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/local/tomcat
+28-Jan-2025 23:25:55.022 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Jan-2025 23:25:55.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Jan-2025 23:25:55.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Jan-2025 23:25:55.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Jan-2025 23:25:55.023 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jan-2025 23:25:55.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/usr/local/tomcat/conf/logging.properties
+28-Jan-2025 23:25:55.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2025 23:25:55.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dtds.content.root.path=/usr/local/tomcat/content/
+28-Jan-2025 23:25:55.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.prefs.systemRoot=/usr/local/tomcat/javaUtilPrefs
+28-Jan-2025 23:25:55.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.prefs.userRoot=/usr/local/tomcat/javaUtilPrefs
+28-Jan-2025 23:25:55.024 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms4G
+28-Jan-2025 23:25:55.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx4G
+28-Jan-2025 23:25:55.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+28-Jan-2025 23:25:55.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+28-Jan-2025 23:25:55.025 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djna.tmpdir=/tmp/
+28-Jan-2025 23:25:55.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2025 23:25:55.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2025 23:25:55.026 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Jan-2025 23:25:55.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2025 23:25:55.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/usr/local/tomcat
+28-Jan-2025 23:25:55.027 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/local/tomcat
+28-Jan-2025 23:25:55.028 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/usr/local/tomcat/temp
+28-Jan-2025 23:25:55.038 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.0] using APR version [1.7.0].
+28-Jan-2025 23:25:55.038 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Jan-2025 23:25:55.039 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Jan-2025 23:25:55.054 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.2 15 Mar 2022]
+28-Jan-2025 23:25:55.750 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2025 23:25:55.823 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1611] milliseconds
+28-Jan-2025 23:25:55.952 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2025 23:25:55.954 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat]
+28-Jan-2025 23:25:55.965 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/usr/local/tomcat/webapps/thredds]
+28-Jan-2025 23:26:03.197 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Jan-2025 23:26:16.781 WARNING [main] net.openhft.chronicle.core.internal.cleaner.ReflectionBasedByteBufferCleanerService.<clinit> Make sure you have set the command line option "--illegal-access=permit --add-exports java.base/jdk.internal.ref=ALL-UNNAMED" to enable ReflectionBasedByteBufferCleanerService
+28-Jan-2025 23:26:18.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/usr/local/tomcat/webapps/thredds] has finished in [23,032] ms
+28-Jan-2025 23:26:19.003 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Jan-2025 23:26:19.022 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [23196] milliseconds

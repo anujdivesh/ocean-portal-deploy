@@ -1,0 +1,10 @@
+version: "3"
+services:
+  ocean-cgi:
+    restart: unless-stopped
+    container_name: ocean-cgi
+    build: ./docker_file
+    ports:
+      - "8088:80"
+    volumes:
+      - /home/ubuntu/cgi-docker/cgi-bin:/usr/lib/cgi-bin

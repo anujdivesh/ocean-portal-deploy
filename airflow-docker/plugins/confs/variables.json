@@ -1,0 +1,39 @@
+{
+    "backup": {
+        "database": "oceano",
+        "target_path": "/backup"
+    },
+    "email_recipients": [
+        "baptiste.gaudron@ird.fr"
+    ],
+    "export_file": {
+        "export_folder": "export"
+    },
+    "get_sofar": {
+        "SPOTTER_IDS": [
+            "0435",
+            "1453",
+            "1472",
+            "1931"
+        ],
+        "SPOTTER_URL": "https://api.sofarocean.com/api",
+        "folders": {
+            "perl_logs": "perl_sofar",
+            "sofar_data": "SOFAR"
+        }
+    },
+    "load_file": {
+        "folders": {
+            "error_import": "import/error",
+            "files_to_import": "import/input",
+            "perl_logs": "perl_dboceano",
+            "success_import": "import/success"
+        },
+        "script_params": {
+            "CREATE": 3,
+            "HOST": "DEV",
+            "TEST": 1,
+            "TRACE": 4
+        }
+    }
+}

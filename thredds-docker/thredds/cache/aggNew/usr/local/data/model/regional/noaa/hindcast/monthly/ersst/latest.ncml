@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<aggregation xmlns='http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2' version='3' type='joinExistingOne' dimName='time' recheckEvery='15 min' >
+  <netcdf id='/usr/local/data/model/regional/noaa/hindcast/monthly/ersst/ersst.v5.202406.nc' ncoords='1' >
+    <cache varName='time' >2024-06-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/hindcast/monthly/ersst/ersst.v5.202407.nc' ncoords='1' >
+    <cache varName='time' >2024-07-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/hindcast/monthly/ersst/ersst.v5.202408.nc' ncoords='1' >
+    <cache varName='time' >2024-08-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/hindcast/monthly/ersst/ersst.v5.202409.nc' ncoords='1' >
+    <cache varName='time' >2024-09-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/hindcast/monthly/ersst/ersst.v5.202410.nc' ncoords='1' >
+    <cache varName='time' >2024-10-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/hindcast/monthly/ersst/ersst.v6.202411.nc' ncoords='1' >
+    <cache varName='time' >2024-11-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/hindcast/monthly/ersst/ersst.v5.202411.nc' ncoords='1' >
+    <cache varName='time' >2024-11-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/hindcast/monthly/ersst/ersst.v6.202412.nc' ncoords='1' >
+    <cache varName='time' >2024-12-01T00:00:00Z </cache>
+  </netcdf>
+</aggregation>

@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<aggregation xmlns='http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2' version='3' type='joinExistingOne' dimName='time' recheckEvery='4 sec' >
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20240921.nc' ncoords='1' >
+    <cache varName='time' >2024-09-21T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20240922.nc' ncoords='1' >
+    <cache varName='time' >2024-09-22T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20240923.nc' ncoords='1' >
+    <cache varName='time' >2024-09-23T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20240924.nc' ncoords='1' >
+    <cache varName='time' >2024-09-24T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20240925.nc' ncoords='1' >
+    <cache varName='time' >2024-09-25T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20240926.nc' ncoords='1' >
+    <cache varName='time' >2024-09-26T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20240927.nc' ncoords='1' >
+    <cache varName='time' >2024-09-27T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20240928.nc' ncoords='1' >
+    <cache varName='time' >2024-09-28T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20240929.nc' ncoords='1' >
+    <cache varName='time' >2024-09-29T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20240930.nc' ncoords='1' >
+    <cache varName='time' >2024-09-30T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241001.nc' ncoords='1' >
+    <cache varName='time' >2024-10-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241002.nc' ncoords='1' >
+    <cache varName='time' >2024-10-02T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241003.nc' ncoords='1' >
+    <cache varName='time' >2024-10-03T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241004.nc' ncoords='1' >
+    <cache varName='time' >2024-10-04T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241005.nc' ncoords='1' >
+    <cache varName='time' >2024-10-05T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241006.nc' ncoords='1' >
+    <cache varName='time' >2024-10-06T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241007.nc' ncoords='1' >
+    <cache varName='time' >2024-10-07T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241008.nc' ncoords='1' >
+    <cache varName='time' >2024-10-08T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241009.nc' ncoords='1' >
+    <cache varName='time' >2024-10-09T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241010.nc' ncoords='1' >
+    <cache varName='time' >2024-10-10T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241011.nc' ncoords='1' >
+    <cache varName='time' >2024-10-11T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241012.nc' ncoords='1' >
+    <cache varName='time' >2024-10-12T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241013.nc' ncoords='1' >
+    <cache varName='time' >2024-10-13T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241014.nc' ncoords='1' >
+    <cache varName='time' >2024-10-14T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241015.nc' ncoords='1' >
+    <cache varName='time' >2024-10-15T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241016.nc' ncoords='1' >
+    <cache varName='time' >2024-10-16T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241017.nc' ncoords='1' >
+    <cache varName='time' >2024-10-17T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241018.nc' ncoords='1' >
+    <cache varName='time' >2024-10-18T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241019.nc' ncoords='1' >
+    <cache varName='time' >2024-10-19T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241020.nc' ncoords='1' >
+    <cache varName='time' >2024-10-20T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241021.nc' ncoords='1' >
+    <cache varName='time' >2024-10-21T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241022.nc' ncoords='1' >
+    <cache varName='time' >2024-10-22T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241023.nc' ncoords='1' >
+    <cache varName='time' >2024-10-23T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241024.nc' ncoords='1' >
+    <cache varName='time' >2024-10-24T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241025.nc' ncoords='1' >
+    <cache varName='time' >2024-10-25T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241026.nc' ncoords='1' >
+    <cache varName='time' >2024-10-26T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241027.nc' ncoords='1' >
+    <cache varName='time' >2024-10-27T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241028.nc' ncoords='1' >
+    <cache varName='time' >2024-10-28T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241029.nc' ncoords='1' >
+    <cache varName='time' >2024-10-29T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241030.nc' ncoords='1' >
+    <cache varName='time' >2024-10-30T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241031.nc' ncoords='1' >
+    <cache varName='time' >2024-10-31T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241101.nc' ncoords='1' >
+    <cache varName='time' >2024-11-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241102.nc' ncoords='1' >
+    <cache varName='time' >2024-11-02T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241103.nc' ncoords='1' >
+    <cache varName='time' >2024-11-03T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241104.nc' ncoords='1' >
+    <cache varName='time' >2024-11-04T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241105.nc' ncoords='1' >
+    <cache varName='time' >2024-11-05T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241106.nc' ncoords='1' >
+    <cache varName='time' >2024-11-06T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241107.nc' ncoords='1' >
+    <cache varName='time' >2024-11-07T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241108.nc' ncoords='1' >
+    <cache varName='time' >2024-11-08T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241109.nc' ncoords='1' >
+    <cache varName='time' >2024-11-09T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241110.nc' ncoords='1' >
+    <cache varName='time' >2024-11-10T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241111.nc' ncoords='1' >
+    <cache varName='time' >2024-11-11T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241112.nc' ncoords='1' >
+    <cache varName='time' >2024-11-12T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241113.nc' ncoords='1' >
+    <cache varName='time' >2024-11-13T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241114.nc' ncoords='1' >
+    <cache varName='time' >2024-11-14T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241115.nc' ncoords='1' >
+    <cache varName='time' >2024-11-15T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241116.nc' ncoords='1' >
+    <cache varName='time' >2024-11-16T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241117.nc' ncoords='1' >
+    <cache varName='time' >2024-11-17T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241118.nc' ncoords='1' >
+    <cache varName='time' >2024-11-18T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241119.nc' ncoords='1' >
+    <cache varName='time' >2024-11-19T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241120.nc' ncoords='1' >
+    <cache varName='time' >2024-11-20T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241121.nc' ncoords='1' >
+    <cache varName='time' >2024-11-21T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241122.nc' ncoords='1' >
+    <cache varName='time' >2024-11-22T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241123.nc' ncoords='1' >
+    <cache varName='time' >2024-11-23T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241124.nc' ncoords='1' >
+    <cache varName='time' >2024-11-24T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241125.nc' ncoords='1' >
+    <cache varName='time' >2024-11-25T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241126.nc' ncoords='1' >
+    <cache varName='time' >2024-11-26T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241127.nc' ncoords='1' >
+    <cache varName='time' >2024-11-27T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241128.nc' ncoords='1' >
+    <cache varName='time' >2024-11-28T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241129.nc' ncoords='1' >
+    <cache varName='time' >2024-11-29T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241130.nc' ncoords='1' >
+    <cache varName='time' >2024-11-30T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241201.nc' ncoords='1' >
+    <cache varName='time' >2024-12-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241202.nc' ncoords='1' >
+    <cache varName='time' >2024-12-02T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241203.nc' ncoords='1' >
+    <cache varName='time' >2024-12-03T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241204.nc' ncoords='1' >
+    <cache varName='time' >2024-12-04T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241205.nc' ncoords='1' >
+    <cache varName='time' >2024-12-05T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241206.nc' ncoords='1' >
+    <cache varName='time' >2024-12-06T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241207.nc' ncoords='1' >
+    <cache varName='time' >2024-12-07T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241208.nc' ncoords='1' >
+    <cache varName='time' >2024-12-08T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241209.nc' ncoords='1' >
+    <cache varName='time' >2024-12-09T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241210.nc' ncoords='1' >
+    <cache varName='time' >2024-12-10T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241211.nc' ncoords='1' >
+    <cache varName='time' >2024-12-11T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241212.nc' ncoords='1' >
+    <cache varName='time' >2024-12-12T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241213.nc' ncoords='1' >
+    <cache varName='time' >2024-12-13T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241214.nc' ncoords='1' >
+    <cache varName='time' >2024-12-14T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241219.nc' ncoords='1' >
+    <cache varName='time' >2024-12-19T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241220.nc' ncoords='1' >
+    <cache varName='time' >2024-12-20T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241221.nc' ncoords='1' >
+    <cache varName='time' >2024-12-21T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241222.nc' ncoords='1' >
+    <cache varName='time' >2024-12-22T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241223.nc' ncoords='1' >
+    <cache varName='time' >2024-12-23T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241224.nc' ncoords='1' >
+    <cache varName='time' >2024-12-24T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241225.nc' ncoords='1' >
+    <cache varName='time' >2024-12-25T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241226.nc' ncoords='1' >
+    <cache varName='time' >2024-12-26T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241227.nc' ncoords='1' >
+    <cache varName='time' >2024-12-27T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241228.nc' ncoords='1' >
+    <cache varName='time' >2024-12-28T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241229.nc' ncoords='1' >
+    <cache varName='time' >2024-12-29T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241230.nc' ncoords='1' >
+    <cache varName='time' >2024-12-30T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20241231.nc' ncoords='1' >
+    <cache varName='time' >2024-12-31T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250101.nc' ncoords='1' >
+    <cache varName='time' >2025-01-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250102.nc' ncoords='1' >
+    <cache varName='time' >2025-01-02T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250103.nc' ncoords='1' >
+    <cache varName='time' >2025-01-03T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250104.nc' ncoords='1' >
+    <cache varName='time' >2025-01-04T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250114.nc' ncoords='1' >
+    <cache varName='time' >2025-01-14T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250115.nc' ncoords='1' >
+    <cache varName='time' >2025-01-15T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250116.nc' ncoords='1' >
+    <cache varName='time' >2025-01-16T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250117.nc' ncoords='1' >
+    <cache varName='time' >2025-01-17T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250118.nc' ncoords='1' >
+    <cache varName='time' >2025-01-18T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250119.nc' ncoords='1' >
+    <cache varName='time' >2025-01-19T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250120.nc' ncoords='1' >
+    <cache varName='time' >2025-01-20T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250121.nc' ncoords='1' >
+    <cache varName='time' >2025-01-21T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250122.nc' ncoords='1' >
+    <cache varName='time' >2025-01-22T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250123.nc' ncoords='1' >
+    <cache varName='time' >2025-01-23T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250124.nc' ncoords='1' >
+    <cache varName='time' >2025-01-24T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250125.nc' ncoords='1' >
+    <cache varName='time' >2025-01-25T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250126.nc' ncoords='1' >
+    <cache varName='time' >2025-01-26T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250127.nc' ncoords='1' >
+    <cache varName='time' >2025-01-27T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250128.nc' ncoords='1' >
+    <cache varName='time' >2025-01-28T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250129.nc' ncoords='1' >
+    <cache varName='time' >2025-01-29T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250130.nc' ncoords='1' >
+    <cache varName='time' >2025-01-30T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250131.nc' ncoords='1' >
+    <cache varName='time' >2025-01-31T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250201.nc' ncoords='1' >
+    <cache varName='time' >2025-02-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250202.nc' ncoords='1' >
+    <cache varName='time' >2025-02-02T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250203.nc' ncoords='1' >
+    <cache varName='time' >2025-02-03T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250204.nc' ncoords='1' >
+    <cache varName='time' >2025-02-04T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250205.nc' ncoords='1' >
+    <cache varName='time' >2025-02-05T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250206.nc' ncoords='1' >
+    <cache varName='time' >2025-02-06T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250207.nc' ncoords='1' >
+    <cache varName='time' >2025-02-07T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250208.nc' ncoords='1' >
+    <cache varName='time' >2025-02-08T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250209.nc' ncoords='1' >
+    <cache varName='time' >2025-02-09T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250210.nc' ncoords='1' >
+    <cache varName='time' >2025-02-10T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250211.nc' ncoords='1' >
+    <cache varName='time' >2025-02-11T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250212.nc' ncoords='1' >
+    <cache varName='time' >2025-02-12T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250213.nc' ncoords='1' >
+    <cache varName='time' >2025-02-13T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250214.nc' ncoords='1' >
+    <cache varName='time' >2025-02-14T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250215.nc' ncoords='1' >
+    <cache varName='time' >2025-02-15T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250216.nc' ncoords='1' >
+    <cache varName='time' >2025-02-16T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/noaa/nrt/daily/coral_bleaching/ct5km_baa5-max-7d_v3.1_20250217.nc' ncoords='1' >
+    <cache varName='time' >2025-02-17T00:00:00Z </cache>
+  </netcdf>
+</aggregation>

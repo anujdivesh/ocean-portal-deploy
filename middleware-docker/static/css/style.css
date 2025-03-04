@@ -1,0 +1,33 @@
+#bodyWrapper {
+  max-width: 100vw;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+#bodyWrapper > nav {
+  flex: 0 0 56px;
+  overflow: hidden;
+}
+#mapWrapper {
+  flex: 1 0 auto;
+  overflow: hidden;
+}
+#map { height: calc(100vh - 56px); background-color: rgb(223, 215, 215); }
+
+
+.accordion-button {
+  font-size: 0.875rem; /* Adjust font size */
+  padding: 0.5rem 1rem; /* Adjust padding */
+}
+
+.accordion-body {
+  font-size: 0.775rem; /* Adjust font size */
+  padding: 0.2rem 1rem; /* Adjust padding */
+}
+
+.accordion-item {
+  margin-bottom: 0.1rem; /* Adjust margin between items */
+}

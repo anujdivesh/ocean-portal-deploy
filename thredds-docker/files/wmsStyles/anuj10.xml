@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" 
+                       xmlns:ogc="http://www.opengis.net/ogc" 
+                       xmlns:se="http://www.opengis.net/se" 
+                       xmlns:xlink="http://www.w3.org/1999/xlink" 
+                       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                       xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd" 
+                       version="1.1.0">
+    <NamedLayer>
+        <se:Name>$layerName</se:Name>
+        <UserStyle>
+            <se:CoverageStyle>
+                <se:Rule>
+                    <se:RasterSymbolizer>
+                        <se:Opacity>$opacity</se:Opacity>
+                        <se:ColorMap>
+                            <se:Categorize fallbackValue="$bgColor">
+                                <se:LookupValue>Rasterdata</se:LookupValue>
+
+                                <!-- Color for values <= 29.3 -->
+                                <se:Value>transparent</se:Value> <!-- Transparent for values <= 29.3 -->
+                                <se:Threshold>29.3</se:Threshold>
+
+                                <!-- Color for values between 29.3 and 29.7 -->
+                                <se:Value>#800000</se:Value> <!-- Dark red color for the range -->
+                                <se:Threshold>29.3</se:Threshold>
+                                <se:Threshold>29.7</se:Threshold>
+
+                                <!-- Color for values > 29.7 -->
+                                <se:Value>transparent</se:Value> <!-- Transparent for values > 29.7 -->
+                                <se:Threshold>29.7</se:Threshold>
+
+                            </se:Categorize>
+                        </se:ColorMap>
+                    </se:RasterSymbolizer>
+                </se:Rule>
+            </se:CoverageStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

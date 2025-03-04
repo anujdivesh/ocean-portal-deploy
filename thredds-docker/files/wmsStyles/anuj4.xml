@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld
+StyledLayerDescriptor.xsd" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <NamedLayer>
+        <se:Name>$layerName</se:Name>
+        <UserStyle>
+            <se:CoverageStyle>
+                <se:Rule>
+                    <se:RasterSymbolizer>
+                        <se:Opacity>$opacity</se:Opacity>
+                        <se:ColorMap>
+                            <se:Categorize fallbackValue="$bgColor">
+                                <se:LookupValue>Rasterdata</se:LookupValue>
+
+                                <!-- Color for values <= 29.3 -->
+                                <se:Value>#ADD8E6</se:Value> <!-- Light blue color for values <= 29.3 -->
+                                <se:Threshold>29.3</se:Threshold>
+
+                                <!-- Color for values > 29.3 and <= 29.5 -->
+                                <se:Value>#FFFF00</se:Value> <!-- Yellow for values between 29.3 and 29.5 -->
+                                <se:Threshold>29.3</se:Threshold>
+                                <se:Threshold>29.5</se:Threshold>
+
+                                <!-- Color for values > 29.5 -->
+                                <se:Value>#FF0000</se:Value> <!-- Red color for values > 29.5 -->
+                                <se:Threshold>29.5</se:Threshold>
+
+                            </se:Categorize>
+                        </se:ColorMap>
+                    </se:RasterSymbolizer>
+                </se:Rule>
+            </se:CoverageStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

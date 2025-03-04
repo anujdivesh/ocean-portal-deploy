@@ -1,0 +1,55 @@
+You are currently running TDS version 5.5 - 2024-07-16T10:33:15-0600
+Latest Available TDS Version Info:
+    latest development version = 5.7-SNAPSHOT
+    latest release version = 5.6
+
+=========================================================================================
+ConfigCatalogInitialization readMode=always isStartup=true
+DatasetTrackerChronicle opened success on '/usr/local/tomcat/content/thredds/cache/catalog/chronicle.datasets.dat.1'
+ConfigCatalogInitializion datasetTracker database already exists - closing it before reinitialization.
+ConfigCatalogInit: initializing 1 root catalogs.
+Checking catalogRoot = catalog.xml
+-------readCatalog(): path=catalog.xml
+Added global service Service{ name=all, base=, typeS=compound
+  Service{ name=odap, base=/thredds/dodsC/, typeS=OpenDAP,desc=Access dataset through OPeNDAP using the DAP2 protocol.}
+  Service{ name=dap4, base=/thredds/dap4/, typeS=DAP4,desc=Access dataset using the DAP4 protocol.}
+  Service{ name=http, base=/thredds/fileServer/, typeS=HTTPServer,desc=HTTP file download.}
+  Service{ name=wcs, base=/thredds/wcs/, typeS=WCS,desc=Supports access to geospatial data as 'coverages'.}
+  Service{ name=wms, base=/thredds/wms/, typeS=WMS,desc=Supports access to georegistered map images from geoscience datasets.}
+  Service{ name=ncssGrid, base=/thredds/ncss/grid/, typeS=NetcdfSubset,desc=A web service for subsetting CDM scientific datasets.}
+  Service{ name=ncssPoint, base=/thredds/ncss/point/, typeS=NetcdfSubset,desc=A web service for subsetting CDM scientific datasets.}
+  Service{ name=cdmremote, base=/thredds/cdmremote/, typeS=CdmRemote,desc=Provides index subsetting on remote CDM datasets, using ncstream.}
+  Service{ name=iso, base=/thredds/iso/, typeS=ISO,desc=Provide ISO 19115 metadata representation of a dataset's structure and metadata.}
+  Service{ name=ncml, base=/thredds/ncml/, typeS=NCML,desc=Provide NCML representation of a dataset.}
+  Service{ name=uddc, base=/thredds/uddc/, typeS=UDDC,desc=An evaluation of how well the metadata contained in the dataset conforms to the NetCDF Attribute Convention for Data Discovery (NACDD)}
+}
+
+
+ConfigCatalogInitializion stats
+ConfigCatalogInitialization started 2025-02-20T21:01:33.729Z took 0.131000 secs using readMode=always
+         catalogs=1
+         datasets=1
+  trackedDatasets=0
+           restrict=0
+            hasNcml=0
+
+      dataRoot=1
+    featCollect=0
+    datasetScan=1
+    catalogScan=0
+    datasetRoot=0
+
+DatasetExt.total_count 0
+DatasetExt.total_nbytes 0
+DatasetExt.avg_nbytes     0
+
+restrict (0)
+
+nAccess (1)
+             0: count = 1
+
+serviceType (0)
+
+ncmlAggSize (0)
+
+ConfigCatalogInitializion finished took=271 msecs

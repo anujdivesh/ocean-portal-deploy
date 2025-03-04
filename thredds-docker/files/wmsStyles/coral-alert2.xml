@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<StyledLayerDescriptor version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld
+StyledLayerDescriptor.xsd" xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resc="http://www.resc.reading.ac.uk">
+    <NamedLayer>
+        <se:Name>$layerName</se:Name>
+        <UserStyle>
+            <se:CoverageStyle>
+                <se:Rule>
+                    <se:RasterSymbolizer>
+                        <se:Opacity>$opacity</se:Opacity>
+                        <se:ColorMap>
+                            <se:Categorize fallbackValue="$bgColor">
+                                <se:LookupValue>Rasterdata</se:LookupValue>
+                                <se:Value>#ADD8E6</se:Value>
+                                <se:Threshold>0</se:Threshold>
+                                <se:Value>blue</se:Value>
+                                <se:Threshold>1</se:Threshold>
+                                <se:Value>red</se:Value>
+                                <se:Threshold>2</se:Threshold>
+                                <se:Value>#00FF00</se:Value>
+                                <se:Threshold>3</se:Threshold>
+                                <se:Value>#000000</se:Value>
+                                <se:Threshold>4</se:Threshold>
+                                <se:Value>#000000</se:Value>
+                                <se:Threshold>5</se:Threshold>
+                                <se:Value>#000000</se:Value>
+                                <se:Threshold>6</se:Threshold>
+                                <se:Value>#000000</se:Value>
+                                <se:Threshold>7</se:Threshold>
+                                <se:Value>#000000</se:Value>
+                            </se:Categorize>
+                        </se:ColorMap>
+                    </se:RasterSymbolizer>
+                </se:Rule>
+            </se:CoverageStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

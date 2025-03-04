@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor version="1.0.0" xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd" xmlns="http://www.opengis.net/sld" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <NamedLayer>
+        <Name>bleaching_alert_area</Name>
+        <UserStyle>
+            <Title>Discrete Color Style</Title>
+            <FeatureTypeStyle>
+                <!-- Value 0 - Red -->
+                <Rule>
+                    <Title>Value 0 - Red</Title>
+                    <Filter><![CDATA[VALUE = 0]]></Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">red</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <!-- Value 1 - Yellow -->
+                <Rule>
+                    <Title>Value 1 - Yellow</Title>
+                    <Filter><![CDATA[VALUE = 1]]></Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">yellow</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <!-- Value 2 - Blue -->
+                <Rule>
+                    <Title>Value 2 - Blue</Title>
+                    <Filter><![CDATA[VALUE = 2]]></Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">blue</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <!-- Value 3 - Green -->
+                <Rule>
+                    <Title>Value 3 - Green</Title>
+                    <Filter><![CDATA[VALUE = 3]]></Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">green</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+                <!-- Value 4 - White -->
+                <Rule>
+                    <Title>Value 4 - White</Title>
+                    <Filter><![CDATA[VALUE = 4]]></Filter>
+                    <PolygonSymbolizer>
+                        <Fill>
+                            <CssParameter name="fill">white</CssParameter>
+                        </Fill>
+                    </PolygonSymbolizer>
+                </Rule>
+            </FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
+</StyledLayerDescriptor>

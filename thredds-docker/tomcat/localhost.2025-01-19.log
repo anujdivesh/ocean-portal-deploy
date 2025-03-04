@@ -1,0 +1,82 @@
+19-Jan-2025 22:01:14.621 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Jan-2025 22:01:16.507 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Jan-2025 22:01:29.116 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring'
+19-Jan-2025 22:10:21.131 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Jan-2025 22:10:22.194 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Jan-2025 22:10:37.888 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring'
+19-Jan-2025 22:46:14.863 SEVERE [http-nio-8080-exec-176] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [wms] in context with path [/thredds] threw exception
+	java.io.IOException: java.lang.NullPointerException
+		at uk.ac.rdg.resc.edal.wms.WmsServlet.doGet(WmsServlet.java:338)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331)
+		at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+		at thredds.servlet.filter.RequestBracketingLogMessageFilter.doFilter(RequestBracketingLogMessageFilter.java:50)
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+		at thredds.servlet.filter.RequestQueryFilter.doFilter(RequestQueryFilter.java:90)
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+		at thredds.servlet.filter.HttpHeadFilter.doFilter(HttpHeadFilter.java:47)
+		at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+		at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+		at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+		at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+		at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:936)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+	Caused by: java.lang.NullPointerException
+		at uk.ac.rdg.resc.edal.dataset.Domain2DMapper.forGrid(Domain2DMapper.java:118)
+		at uk.ac.rdg.resc.edal.dataset.GriddedDataset.extractHorizontalData(GriddedDataset.java:562)
+		at uk.ac.rdg.resc.edal.dataset.GriddedDataset.extractHorizontalData(GriddedDataset.java:86)
+		at uk.ac.rdg.resc.edal.dataset.DiscreteLayeredDataset.readUnderlyingHorizontalData(DiscreteLayeredDataset.java:100)
+		at uk.ac.rdg.resc.edal.dataset.HorizontallyDiscreteDataset.readHorizontalData(HorizontallyDiscreteDataset.java:273)
+		at uk.ac.rdg.resc.edal.dataset.HorizontallyDiscreteDataset.extractMapFeatures(HorizontallyDiscreteDataset.java:177)
+		at thredds.server.wms.ThreddsWmsCatalogue.getFeaturesForLayer(ThreddsWmsCatalogue.java:162)
+		at uk.ac.rdg.resc.edal.graphics.style.GriddedImageLayer$MapFeatureDataReader.extractFeature(GriddedImageLayer.java:86)
+		at uk.ac.rdg.resc.edal.graphics.style.GriddedImageLayer$MapFeatureDataReader.getFeature(GriddedImageLayer.java:77)
+		at uk.ac.rdg.resc.edal.graphics.style.GriddedImageLayer$MapFeatureDataReader.getDataForLayerName(GriddedImageLayer.java:131)
+		at uk.ac.rdg.resc.edal.graphics.style.RasterLayer.drawIntoImage(RasterLayer.java:73)
+		at uk.ac.rdg.resc.edal.graphics.style.GriddedImageLayer.drawIntoImage(GriddedImageLayer.java:180)
+		at uk.ac.rdg.resc.edal.graphics.style.ImageLayer.drawImage(ImageLayer.java:51)
+		at uk.ac.rdg.resc.edal.graphics.style.MapImage.drawImage(MapImage.java:70)
+		at uk.ac.rdg.resc.edal.wms.WmsServlet.getMap(WmsServlet.java:533)
+		at uk.ac.rdg.resc.edal.wms.WmsServlet.dispatchWmsRequest(WmsServlet.java:365)
+		at thredds.server.wms.ThreddsWmsServlet.dispatchWmsRequest(ThreddsWmsServlet.java:119)
+		at uk.ac.rdg.resc.edal.wms.WmsServlet.doGet(WmsServlet.java:300)
+		... 47 more
+19-Jan-2025 23:08:17.680 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Jan-2025 23:08:19.444 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Jan-2025 23:08:30.940 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring'
+19-Jan-2025 23:14:44.755 INFO [main] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+19-Jan-2025 23:14:45.795 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+19-Jan-2025 23:14:56.165 INFO [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'spring'

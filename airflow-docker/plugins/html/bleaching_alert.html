@@ -1,0 +1,227 @@
+{% set task_group = ti.task_id.split('.')[0] %}
+{% set task_id_dhw = task_group + '.' + 'compute_dhw' %}
+{% set task_id_graph = task_group + '.' + 'create_graph' %}
+{% set day = ti.xcom_pull(task_ids=task_id_dhw, key="day") %}
+{% set temp= ti.xcom_pull(task_ids=task_id_dhw, key="temp") %}
+{% set dhw= ti.xcom_pull(task_ids=task_id_dhw, key="dhw") %}
+{% set alert_level= ti.xcom_pull(task_ids=task_id_dhw, key="alert_level") %}
+{% set delta_temp= ti.xcom_pull(task_ids=task_id_dhw, key="delta_temp") %}
+{% set delta_dhw= ti.xcom_pull(task_ids=task_id_dhw, key="delta_dhw") %}
+{% set bleaching_threshold= ti.xcom_pull(task_ids=task_id_dhw, key="bleaching_threshold") %}
+{% set img_b64_plot= ti.xcom_pull(task_ids=task_id_graph) %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coral Bleaching Monitoring Dashboard</title>
+    <style>
+        body, html  {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #fff;
+        } 
+
+        #dashboard   { 
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+        } 
+
+	    .dashboard-title   { 
+            text-align: center;
+            font-size: 32px;
+            color: #007CC3; /* Bootstrap primary color */
+            margin-bottom: 0;
+        } 
+
+         
+        .date   { 
+            text-align: center;
+            font-size: 18px;
+            color: #6c757d; /* Light gray font */
+            margin-bottom: 1em;
+        } 
+
+
+        .card   { 
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-left: 5px solid #007CC3; /* Bootstrap primary color */
+            text-align: center;
+            position: relative; /* For positioning the bleaching threshold */
+        } 
+
+        .card h2   { 
+            margin-top: 0;
+            color: #333;
+            font-size: 18px;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+        } 
+
+        .arrow-up   { 
+            color: #e82c3f;
+            margin-left: 5px;
+            font-size: 30px; /* Slightly smaller than the data-value for balance */
+            font-weight: bold;
+        } 
+
+        .arrow-down   { 
+            color: #63dc38;
+            margin-left: 5px;
+            font-size: 30px; /* Slightly smaller than the data-value for balance */
+            font-weight: bold;
+        } 
+
+        .arrow-up:hover::after, .arrow-down:hover::after {
+            content: attr(data-delta); /* Use the data-delta attribute for tooltip content */
+            position: absolute;
+            background-color: #333;
+            color: #fff;
+            padding: 2px 5px;
+            border-radius: 5px;
+            font-size: 14px;
+            transform: translateX(25%);
+            white-space: nowrap;
+        }
+
+        .data-value   { 
+            color: #007CC3; /* Bootstrap primary color */
+            font-size: 28px;
+            font-weight: bold;
+            margin: 0;
+        } 
+
+        .data-unit   { 
+                color: #007CC3; /* Bootstrap primary color */
+                font-size: 28px;
+                margin: 0;
+            } 
+
+        #alert-level #nostress   { 
+            color: #38cedc;
+        } 
+
+        #alert-level #watch   { 
+            color: #e8d52c;
+            font-size: 30px;
+        } 
+
+        #alert-level #warning   { 
+            color: #e8832c;
+            font-size: 32px;
+        } 
+
+        #alert-level #high   { 
+            color: #e82c3f;
+            font-size: 34px;
+        } 
+
+        #alert-level #veryhigh   { 
+            color: #e82c8a;
+            font-size: 36px;
+        } 
+
+        .metrics-container   { 
+            display: flex;
+            gap: 20px;
+        } 
+        
+        .metric-card   { 
+            flex: 1; /* Each metric card will take up equal space */
+        } 
+
+        .bleaching-threshold   { 
+            position: absolute;
+            bottom: 5px;
+            right: 10px;
+            font-size: 12px;
+            color: #333;
+            text-align: right;
+        } 
+	
+        .info-note   { 
+            text-align: center;
+            font-style: italic;
+            font-size: 14px;
+            padding-top: 10px; /* Spacing above the note */
+        } 
+
+        .note   { 
+                text-align: right;
+                font-style: italic;
+                font-size: 14px;
+                position: absolute;
+                top: 10px;
+                right: 20px;
+        } 
+
+    </style>
+</head>
+<body>
+    <div id="dashboard">
+	<div class="note">
+            Click on the attachment to see the complete evolution of temperature and DHW computing details
+        </div>
+	<h1 class="dashboard-title">Coral Bleaching Monitoring</h1>
+        <div class="date" id="currentDate"> {{ day }} </div>
+        <div id="alert-level" class="card">
+            <h2>Bleaching Alert Level</h2>
+            {% if alert_level==0 %}
+            <p class="data-value" id="nostress">No stress</p>
+            {% elif alert_level==1 %}
+            <p class="data-value" id="watch">Watch</p>
+            {% elif alert_level==2 %}
+            <p class="data-value" id="warning">Warning</p>
+            {% elif alert_level==3 %}
+            <p class="data-value" id="high">High (Level 1)</p>
+            {% elif alert_level==4 %}
+            <p class="data-value" id="veryhigh">Very High (Level 2)</p>
+            {% endif %}
+            <div class="bleaching-threshold">
+                    BLEACHING THRESHOLD = {{bleaching_threshold}}°C
+                </div>
+        </div>
+        <div class="metrics-container">
+            <div id="mean-temperature" class="card metric-card">
+                <h2>Mean Water Temperature</h2>
+                <p class="data-value">
+                    {{ temp }} <span class="data-unit">°C</span> 
+                    {% if delta_temp > 0 %}
+                        <span class="arrow-up" data-delta="+{{delta_temp}}°C">&uarr;</span>
+                    {% elif delta_temp < 0 %}
+                        <span class="arrow-down" data-delta="{{delta_temp}}°C">&darr;</span>
+                    {% endif %}
+                </p>
+            </div>
+            <div id="dhw" class="card metric-card">
+                <h2>Degree Heating Weeks (DHW)</h2>
+                <p class="data-value">
+                    {{ dhw }} <span class="data-unit">°C-week</span>
+                   {% if delta_dhw > 0 %}
+                        <span class="arrow-up" data-delta="+{{delta_dhw}}">&uarr;</span>
+                    {% elif delta_dhw < 0 %}
+                        <span class="arrow-down" data-delta="{{delta_dhw}}">&darr;</span>
+                    {% endif %}
+                </p> 
+            </div>
+        </div>
+       <div class="info-note">
+            More information about alert levels definition and DHW on
+            <a href="https://coralreefwatch.noaa.gov/satellite/education/tutorial/crw25_sba_product.php" target="_blank">coralreefwatch.noaa.gov/bleaching_alerts</a>
+        </div>
+    </div>
+    <hr class="dashed">
+    <div>
+        <img src="data:image/svg+xml;base64,{{img_b64_plot}}"/>
+    </div>
+</body>
+</html>

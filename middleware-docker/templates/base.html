@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% block title %}{% endblock %}</title>
+  {% load bootstrap5 %}
+  {% bootstrap_css %}
+  {% bootstrap_javascript %}
+  {% load static %}
+  {% block header %}{% endblock %}
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.ico' %}">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #009688;">
+    <div class="container-fluid">
+        <img src="{% static 'images/cos2.png' %}" style="width: 40px; height: auto;" alt="cosppac logo"/>
+
+        <img src="{% static 'images/spx.png' %}" style="width: 50px; height: auto;"  alt="cosppac logo"/>
+
+        <img src="{% static 'images/ausaid2.png' %}" style="width: 50px; height: auto;"  alt="cosppac logo"/>
+        &nbsp;&nbsp;
+      <a class="navbar-brand" href="#">Pacific Ocean Portal - Monitoring</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <a class="nav-link {% block dataactivate %}{% endblock %}" aria-current="page" href="/middleware/data">Data</a>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link {% block productactivate %}{% endblock %}" aria-current="page" href="/middleware/products">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% block apiactivate %}{% endblock %}" href="/middleware/api">API</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% block databaseactivate %}{% endblock %}" href="/middleware/database">Database</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% block serveractivate %}{% endblock %}" href="/middleware/server">Server</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="container-fluid">
+ 
+
+  {% block content %}
+  {% endblock %}
+</div>
+
+{% block footer %}
+{% endblock %}
+</body>
+</html>

@@ -1,0 +1,960 @@
+2025-02-10T10:00:10.086 +0000 [ 887117470][  105962] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:00:10.087 +0000 [ 887117471][  105962] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:00:20.246 +0000 [ 887127630][  105963] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:00:20.246 +0000 [ 887127630][  105963] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:00:30.399 +0000 [ 887137783][  105964] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:00:30.399 +0000 [ 887137783][  105964] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:00:40.465 +0000 [ 887147849][  105965] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:00:40.465 +0000 [ 887147849][  105965] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:00:50.554 +0000 [ 887157938][  105966] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:00:50.554 +0000 [ 887157938][  105966] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:01:00.631 +0000 [ 887168015][  105967] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:01:00.631 +0000 [ 887168015][  105967] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:01:10.709 +0000 [ 887178093][  105968] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:01:10.709 +0000 [ 887178093][  105968] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:01:20.775 +0000 [ 887188159][  105969] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:01:20.775 +0000 [ 887188159][  105969] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:01:30.862 +0000 [ 887198246][  105970] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:01:30.862 +0000 [ 887198246][  105970] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:01:40.963 +0000 [ 887208347][  105971] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:01:40.963 +0000 [ 887208347][  105971] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:01:51.046 +0000 [ 887218430][  105972] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:01:51.046 +0000 [ 887218430][  105972] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:02:01.105 +0000 [ 887228489][  105973] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:02:01.105 +0000 [ 887228489][  105973] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:02:11.190 +0000 [ 887238574][  105974] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:02:11.190 +0000 [ 887238574][  105974] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:02:21.270 +0000 [ 887248654][  105975] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:02:21.271 +0000 [ 887248655][  105975] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:02:31.344 +0000 [ 887258728][  105976] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:02:31.344 +0000 [ 887258728][  105976] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:02:41.412 +0000 [ 887268796][  105977] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:02:41.412 +0000 [ 887268796][  105977] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:02:51.474 +0000 [ 887278858][  105978] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:02:51.474 +0000 [ 887278858][  105978] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:03:01.566 +0000 [ 887288950][  105979] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:03:01.567 +0000 [ 887288951][  105979] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:03:11.638 +0000 [ 887299022][  105980] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:03:11.638 +0000 [ 887299022][  105980] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:03:21.698 +0000 [ 887309082][  105981] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:03:21.698 +0000 [ 887309082][  105981] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:03:31.791 +0000 [ 887319175][  105982] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:03:31.791 +0000 [ 887319175][  105982] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:03:37.961 +0000 [ 887325345][  105983] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/wms/POP/model/regional/noaa/hindcast/monthly/ersst/latest.ncml?service=WMS&request=GetCapabilities&version=1.3.0 HTTP/1.0"
+2025-02-10T10:03:37.975 +0000 [ 887325359][  105984] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/wms/POP/model/regional/bom/forecast/monthly/accesss/sst/latest.nc?service=WMS&request=GetCapabilities&version=1.3.0 HTTP/1.0"
+2025-02-10T10:03:38.049 +0000 [ 887325433][  105983] INFO  - threddsServlet - Request Completed - 200 - -1 - 88
+2025-02-10T10:03:38.056 +0000 [ 887325440][  105984] INFO  - threddsServlet - Request Completed - 200 - -1 - 81
+2025-02-10T10:03:38.072 +0000 [ 887325456][  105985] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/wms/POP/model/regional/nasa/nrt/monthly/chlorophyll/latest.ncml?service=WMS&request=GetCapabilities&version=1.3.0 HTTP/1.0"
+2025-02-10T10:03:38.089 +0000 [ 887325473][  105985] INFO  - threddsServlet - Request Completed - 200 - -1 - 17
+2025-02-10T10:03:38.203 +0000 [ 887325587][  105986] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/wms/POP/model/regional/bom/forecast/monthly/accesss/ssh/latest.nc?service=WMS&request=GetCapabilities&version=1.3.0 HTTP/1.0"
+2025-02-10T10:03:38.218 +0000 [ 887325602][  105986] INFO  - threddsServlet - Request Completed - 200 - -1 - 15
+2025-02-10T10:03:38.325 +0000 [ 887325709][  105987] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/bom/forecast/monthly/accesss/sst/latest.nc.dds HTTP/1.0"
+2025-02-10T10:03:38.328 +0000 [ 887325712][  105987] INFO  - threddsServlet - Request Completed - 200 - -1 - 3
+2025-02-10T10:03:38.333 +0000 [ 887325717][  105988] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/nasa/nrt/monthly/chlorophyll/latest.ncml.dds HTTP/1.0"
+2025-02-10T10:03:38.337 +0000 [ 887325721][  105988] INFO  - threddsServlet - Request Completed - 200 - -1 - 4
+2025-02-10T10:03:38.341 +0000 [ 887325725][  105989] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/bom/forecast/monthly/accesss/sst/latest.nc.das HTTP/1.0"
+2025-02-10T10:03:38.346 +0000 [ 887325730][  105989] INFO  - threddsServlet - Request Completed - 200 - -1 - 5
+2025-02-10T10:03:38.359 +0000 [ 887325743][  105990] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/nasa/nrt/monthly/chlorophyll/latest.ncml.das HTTP/1.0"
+2025-02-10T10:03:38.363 +0000 [ 887325747][  105990] INFO  - threddsServlet - Request Completed - 200 - -1 - 4
+2025-02-10T10:03:38.363 +0000 [ 887325747][  105991] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/bom/forecast/monthly/accesss/sst/latest.nc.dds HTTP/1.0"
+2025-02-10T10:03:38.365 +0000 [ 887325749][  105991] INFO  - threddsServlet - Request Completed - 200 - -1 - 2
+2025-02-10T10:03:38.383 +0000 [ 887325767][  105992] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/nasa/nrt/monthly/chlorophyll/latest.ncml.dds HTTP/1.0"
+2025-02-10T10:03:38.384 +0000 [ 887325768][  105992] INFO  - threddsServlet - Request Completed - 200 - -1 - 1
+2025-02-10T10:03:38.401 +0000 [ 887325785][  105993] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/bom/forecast/monthly/accesss/sst/latest.nc.dods?lon,lat,time HTTP/1.0"
+2025-02-10T10:03:38.404 +0000 [ 887325788][  105993] INFO  - threddsServlet - Request Completed - 200 - -1 - 3
+2025-02-10T10:03:38.423 +0000 [ 887325807][  105994] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/nasa/nrt/monthly/chlorophyll/latest.ncml.dods?lat,time HTTP/1.0"
+2025-02-10T10:03:38.429 +0000 [ 887325813][  105995] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/bom/forecast/monthly/accesss/ssh/latest.nc.dds HTTP/1.0"
+2025-02-10T10:03:38.434 +0000 [ 887325818][  105995] INFO  - threddsServlet - Request Completed - 200 - -1 - 5
+2025-02-10T10:03:38.436 +0000 [ 887325820][  105994] INFO  - threddsServlet - Request Completed - 200 - -1 - 13
+2025-02-10T10:03:38.438 +0000 [ 887325822][  105996] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/noaa/hindcast/monthly/ersst/latest.ncml.dds HTTP/1.0"
+2025-02-10T10:03:38.442 +0000 [ 887325826][  105996] INFO  - threddsServlet - Request Completed - 200 - -1 - 4
+2025-02-10T10:03:38.452 +0000 [ 887325836][  105997] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/bom/forecast/monthly/accesss/ssh/latest.nc.das HTTP/1.0"
+2025-02-10T10:03:38.456 +0000 [ 887325840][  105998] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/noaa/hindcast/monthly/ersst/latest.ncml.das HTTP/1.0"
+2025-02-10T10:03:38.459 +0000 [ 887325843][  105998] INFO  - threddsServlet - Request Completed - 200 - -1 - 3
+2025-02-10T10:03:38.463 +0000 [ 887325847][  105997] INFO  - threddsServlet - Request Completed - 200 - -1 - 11
+2025-02-10T10:03:38.469 +0000 [ 887325853][  105999] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/nasa/nrt/monthly/chlorophyll/latest.ncml.dods?lon HTTP/1.0"
+2025-02-10T10:03:38.476 +0000 [ 887325860][  106000] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/noaa/hindcast/monthly/ersst/latest.ncml.dds HTTP/1.0"
+2025-02-10T10:03:38.477 +0000 [ 887325861][  106000] INFO  - threddsServlet - Request Completed - 200 - -1 - 1
+2025-02-10T10:03:38.480 +0000 [ 887325864][  106001] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/bom/forecast/monthly/accesss/ssh/latest.nc.dds HTTP/1.0"
+2025-02-10T10:03:38.482 +0000 [ 887325866][  106001] INFO  - threddsServlet - Request Completed - 200 - -1 - 2
+2025-02-10T10:03:38.487 +0000 [ 887325871][  105999] INFO  - threddsServlet - Request Completed - 200 - -1 - 17
+2025-02-10T10:03:38.524 +0000 [ 887325908][  106002] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/noaa/hindcast/monthly/ersst/latest.ncml.dods?lat,lev,lon,time HTTP/1.0"
+2025-02-10T10:03:38.530 +0000 [ 887325914][  106003] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/bom/forecast/monthly/accesss/ssh/latest.nc.dods?lon,lat,time,ensemble_members,forecast_period,ens_init_table,time_bounds HTTP/1.0"
+2025-02-10T10:03:38.531 +0000 [ 887325915][  106002] INFO  - threddsServlet - Request Completed - 200 - -1 - 7
+2025-02-10T10:03:38.535 +0000 [ 887325919][  106003] INFO  - threddsServlet - Request Completed - 200 - -1 - 5
+2025-02-10T10:03:38.739 +0000 [ 887326123][  106004] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/wms/POP/model/regional/bom/forecast/monthly/accesss/seasonal_sst/latest.nc?service=WMS&request=GetCapabilities&version=1.3.0 HTTP/1.0"
+2025-02-10T10:03:38.759 +0000 [ 887326143][  106004] INFO  - threddsServlet - Request Completed - 200 - -1 - 20
+2025-02-10T10:03:39.019 +0000 [ 887326403][  106005] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/bom/forecast/monthly/accesss/seasonal_sst/latest.nc.dds HTTP/1.0"
+2025-02-10T10:03:39.021 +0000 [ 887326405][  106005] INFO  - threddsServlet - Request Completed - 200 - -1 - 2
+2025-02-10T10:03:39.036 +0000 [ 887326420][  106006] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/bom/forecast/monthly/accesss/seasonal_sst/latest.nc.das HTTP/1.0"
+2025-02-10T10:03:39.040 +0000 [ 887326424][  106006] INFO  - threddsServlet - Request Completed - 200 - -1 - 4
+2025-02-10T10:03:39.054 +0000 [ 887326438][  106007] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/bom/forecast/monthly/accesss/seasonal_sst/latest.nc.dds HTTP/1.0"
+2025-02-10T10:03:39.056 +0000 [ 887326440][  106007] INFO  - threddsServlet - Request Completed - 200 - -1 - 2
+2025-02-10T10:03:39.093 +0000 [ 887326477][  106008] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/dodsC/POP/model/regional/bom/forecast/monthly/accesss/seasonal_sst/latest.nc.dods?lat,lon,time HTTP/1.0"
+2025-02-10T10:03:39.096 +0000 [ 887326480][  106008] INFO  - threddsServlet - Request Completed - 200 - -1 - 3
+2025-02-10T10:03:41.932 +0000 [ 887329316][  106009] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:03:41.932 +0000 [ 887329316][  106009] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:03:42.958 +0000 [ 887330342][  106010] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/wms/POP/model/regional/noaa/nrt/daily/coral_bleaching/latest.ncml?service=WMS&request=GetCapabilities&version=1.3.0 HTTP/1.0"
+2025-02-10T10:03:42.998 +0000 [ 887330382][  106010] INFO  - threddsServlet - Request Completed - 200 - -1 - 40
+2025-02-10T10:03:52.003 +0000 [ 887339387][  106011] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:03:52.003 +0000 [ 887339387][  106011] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:03:54.508 +0000 [ 887341892][  106012] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/wms/POP/model/regional/copernicus/nrt/daily/ssh/latest.ncml?service=WMS&request=GetCapabilities&version=1.3.0 HTTP/1.0"
+2025-02-10T10:03:54.537 +0000 [ 887341921][  106012] ERROR - uk.ac.rdg.resc.edal.wms.WmsServlet - Problem with GET request
+com.google.common.util.concurrent.UncheckedExecutionException: java.lang.RuntimeException: SimpleDateFormat = yyyyMMdd fails on cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250109_20250109.nc ParseException:Unparseable date: "_2025010"
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2085) ~[guava-32.0.1-jre.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4011) ~[guava-32.0.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4919) ~[guava-32.0.1-jre.jar:?]
+	at thredds.server.wms.ThreddsWmsServlet.acquireCatalogue(ThreddsWmsServlet.java:128) ~[classes/:5.5]
+	at thredds.server.wms.ThreddsWmsServlet.dispatchWmsRequest(ThreddsWmsServlet.java:113) ~[classes/:5.5]
+	at uk.ac.rdg.resc.edal.wms.WmsServlet.doGet(WmsServlet.java:300) [edal-wms-1.5.2.0.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.91]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-websocket.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.91]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) [catalina.jar:9.0.91]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.91]
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.91]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337) [spring-security-web-5.7.12.jar:5.7.12]
+	at thredds.servlet.filter.RequestBracketingLogMessageFilter.doFilter(RequestBracketingLogMessageFilter.java:50) [classes/:5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.12.jar:5.7.12]
+	at thredds.servlet.filter.RequestQueryFilter.doFilter(RequestQueryFilter.java:90) [classes/:5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.12.jar:5.7.12]
+	at thredds.servlet.filter.HttpHeadFilter.doFilter(HttpHeadFilter.java:47) [classes/:5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.12.jar:5.7.12]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221) [spring-security-web-5.7.12.jar:5.7.12]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) [spring-security-web-5.7.12.jar:5.7.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) [spring-web-5.3.34.jar:5.3.34]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) [spring-web-5.3.34.jar:5.3.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.91]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.17.1.jar:2.17.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [catalina.jar:9.0.91]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [catalina.jar:9.0.91]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [catalina.jar:9.0.91]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [catalina.jar:9.0.91]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) [catalina.jar:9.0.91]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388) [tomcat-coyote.jar:9.0.91]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote.jar:9.0.91]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:936) [tomcat-coyote.jar:9.0.91]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) [tomcat-coyote.jar:9.0.91]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-coyote.jar:9.0.91]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) [tomcat-util.jar:9.0.91]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.91]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-util.jar:9.0.91]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.lang.RuntimeException: SimpleDateFormat = yyyyMMdd fails on cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250109_20250109.nc ParseException:Unparseable date: "_2025010"
+	at ucar.nc2.units.DateFromString.getDateUsingCompleteDateFormatWithOffset(DateFromString.java:236) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.units.DateFromString.getDateUsingDemarkatedCount(DateFromString.java:74) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.DateExtractorFromName.getDate(DateExtractorFromName.java:41) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.DateExtractorFromName.getCalendarDate(DateExtractorFromName.java:48) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.CollectionAbstract.extractDate(CollectionAbstract.java:165) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.CollectionAbstract.extractRunDateWithError(CollectionAbstract.java:239) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.MFileCollectionManager.extractRunDateWithError(MFileCollectionManager.java:526) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.CollectionAbstract$DateSorter.compare(CollectionAbstract.java:228) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.CollectionAbstract$DateSorter.compare(CollectionAbstract.java:225) ~[cdm-core-5.6.0.jar:5.6.0]
+	at java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[?:?]
+	at java.util.TimSort.sort(TimSort.java:234) ~[?:?]
+	at java.util.Arrays.sort(Arrays.java:1515) ~[?:?]
+	at java.util.ArrayList.sort(ArrayList.java:1750) ~[?:?]
+	at thredds.inventory.MFileCollectionManager.getFilesSorted(MFileCollectionManager.java:474) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.internal.ncml.Aggregation.makeDatasets(Aggregation.java:367) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.internal.ncml.Aggregation.build(Aggregation.java:348) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.internal.ncml.NcmlReader.readNetcdf(NcmlReader.java:528) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.internal.ncml.NcmlReader.readNcml(NcmlReader.java:483) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.internal.ncml.NcmlReader.readNcml(NcmlReader.java:385) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.internal.ncml.NcmlNetcdfFileProvider.open(NcmlNetcdfFileProvider.java:24) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets.openProtocolOrFile(NetcdfDatasets.java:431) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets.openFile(NetcdfDatasets.java:347) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets$StandardFileFactory.open(NetcdfDatasets.java:38) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets$StandardFileFactory.open(NetcdfDatasets.java:35) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.util.cache.FileCache.acquire(FileCache.java:287) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets.openOrAcquireFile(NetcdfDatasets.java:409) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets.acquireFile(NetcdfDatasets.java:386) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets.acquireFile(NetcdfDatasets.java:361) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.core.DatasetManager.openNetcdfFile(DatasetManager.java:214) ~[classes/:5.5]
+	at thredds.core.TdsRequestedDataset.openAsNetcdfFile(TdsRequestedDataset.java:173) ~[classes/:5.5]
+	at thredds.core.TdsRequestedDataset.getNetcdfFile(TdsRequestedDataset.java:91) ~[classes/:5.5]
+	at thredds.server.wms.ThreddsWmsServlet.acquireNetcdfDataset(ThreddsWmsServlet.java:167) ~[classes/:5.5]
+	at thredds.server.wms.ThreddsWmsServlet.lambda$acquireCatalogue$1(ThreddsWmsServlet.java:129) ~[classes/:5.5]
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4924) ~[guava-32.0.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3570) ~[guava-32.0.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2312) ~[guava-32.0.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2189) ~[guava-32.0.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2079) ~[guava-32.0.1-jre.jar:?]
+	... 52 more
+2025-02-10T10:04:02.063 +0000 [ 887349447][  106013] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:04:02.064 +0000 [ 887349448][  106013] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:04:12.136 +0000 [ 887359520][  106014] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:04:12.137 +0000 [ 887359521][  106014] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:04:22.208 +0000 [ 887369592][  106015] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:04:22.208 +0000 [ 887369592][  106015] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:04:32.273 +0000 [ 887379657][  106016] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:04:32.273 +0000 [ 887379657][  106016] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:04:42.338 +0000 [ 887389722][  106017] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:04:42.338 +0000 [ 887389722][  106017] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:04:52.403 +0000 [ 887399787][  106018] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:04:52.403 +0000 [ 887399787][  106018] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:05:02.493 +0000 [ 887409877][  106019] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:05:02.493 +0000 [ 887409877][  106019] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:05:12.568 +0000 [ 887419952][  106020] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:05:12.569 +0000 [ 887419953][  106020] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:05:22.646 +0000 [ 887430030][  106021] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:05:22.646 +0000 [ 887430030][  106021] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:05:32.708 +0000 [ 887440092][  106022] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:05:32.708 +0000 [ 887440092][  106022] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:05:42.788 +0000 [ 887450172][  106023] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:05:42.789 +0000 [ 887450173][  106023] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:05:52.861 +0000 [ 887460245][  106024] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:05:52.861 +0000 [ 887460245][  106024] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:06:02.927 +0000 [ 887470311][  106025] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:06:02.927 +0000 [ 887470311][  106025] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:06:12.999 +0000 [ 887480383][  106026] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:06:13.000 +0000 [ 887480384][  106026] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:06:23.076 +0000 [ 887490460][  106027] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:06:23.076 +0000 [ 887490460][  106027] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:06:33.138 +0000 [ 887500522][  106028] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:06:33.138 +0000 [ 887500522][  106028] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:06:43.203 +0000 [ 887510587][  106029] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:06:43.204 +0000 [ 887510588][  106029] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:06:53.272 +0000 [ 887520656][  106030] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:06:53.272 +0000 [ 887520656][  106030] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:07:03.333 +0000 [ 887530717][  106031] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:07:03.334 +0000 [ 887530718][  106031] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:07:13.397 +0000 [ 887540781][  106032] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:07:13.397 +0000 [ 887540781][  106032] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:07:23.471 +0000 [ 887550855][  106033] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:07:23.471 +0000 [ 887550855][  106033] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:07:33.536 +0000 [ 887560920][  106034] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:07:33.536 +0000 [ 887560920][  106034] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:07:43.598 +0000 [ 887570982][  106035] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:07:43.598 +0000 [ 887570982][  106035] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:07:53.670 +0000 [ 887581054][  106036] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:07:53.670 +0000 [ 887581054][  106036] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:08:03.732 +0000 [ 887591116][  106037] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:08:03.732 +0000 [ 887591116][  106037] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:08:13.796 +0000 [ 887601180][  106038] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:08:13.796 +0000 [ 887601180][  106038] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:08:23.857 +0000 [ 887611241][  106039] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:08:23.858 +0000 [ 887611242][  106039] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:08:33.918 +0000 [ 887621302][  106040] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:08:33.918 +0000 [ 887621302][  106040] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:08:43.983 +0000 [ 887631367][  106041] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:08:43.983 +0000 [ 887631367][  106041] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:08:54.071 +0000 [ 887641455][  106042] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:08:54.071 +0000 [ 887641455][  106042] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:09:04.141 +0000 [ 887651525][  106043] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:09:04.141 +0000 [ 887651525][  106043] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:09:14.213 +0000 [ 887661597][  106044] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:09:14.213 +0000 [ 887661597][  106044] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:09:24.284 +0000 [ 887671668][  106045] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:09:24.284 +0000 [ 887671668][  106045] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:09:34.371 +0000 [ 887681755][  106046] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:09:34.371 +0000 [ 887681755][  106046] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:09:44.434 +0000 [ 887691818][  106047] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:09:44.434 +0000 [ 887691818][  106047] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:09:54.515 +0000 [ 887701899][  106048] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:09:54.515 +0000 [ 887701899][  106048] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:10:04.578 +0000 [ 887711962][  106049] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:10:04.578 +0000 [ 887711962][  106049] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:10:14.645 +0000 [ 887722029][  106050] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:10:14.645 +0000 [ 887722029][  106050] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:10:24.709 +0000 [ 887732093][  106051] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:10:24.709 +0000 [ 887732093][  106051] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:10:34.771 +0000 [ 887742155][  106052] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:10:34.771 +0000 [ 887742155][  106052] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:10:44.835 +0000 [ 887752219][  106053] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:10:44.835 +0000 [ 887752219][  106053] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:10:54.900 +0000 [ 887762284][  106054] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:10:54.900 +0000 [ 887762284][  106054] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:11:04.989 +0000 [ 887772373][  106055] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:11:04.990 +0000 [ 887772374][  106055] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:11:15.056 +0000 [ 887782440][  106056] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:11:15.056 +0000 [ 887782440][  106056] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:11:25.122 +0000 [ 887792506][  106057] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:11:25.122 +0000 [ 887792506][  106057] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:11:35.181 +0000 [ 887802565][  106058] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:11:35.181 +0000 [ 887802565][  106058] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:11:45.243 +0000 [ 887812627][  106059] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:11:45.243 +0000 [ 887812627][  106059] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:11:55.306 +0000 [ 887822690][  106060] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:11:55.306 +0000 [ 887822690][  106060] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:12:05.397 +0000 [ 887832781][  106061] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:12:05.397 +0000 [ 887832781][  106061] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:12:15.462 +0000 [ 887842846][  106062] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:12:15.462 +0000 [ 887842846][  106062] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:12:25.552 +0000 [ 887852936][  106063] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:12:25.552 +0000 [ 887852936][  106063] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:12:35.621 +0000 [ 887863005][  106064] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:12:35.621 +0000 [ 887863005][  106064] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:12:45.699 +0000 [ 887873083][  106065] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:12:45.699 +0000 [ 887873083][  106065] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:12:55.769 +0000 [ 887883153][  106066] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:12:55.769 +0000 [ 887883153][  106066] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:13:05.844 +0000 [ 887893228][  106067] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:13:05.845 +0000 [ 887893229][  106067] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:13:15.909 +0000 [ 887903293][  106068] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:13:15.909 +0000 [ 887903293][  106068] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:13:25.977 +0000 [ 887913361][  106069] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:13:25.978 +0000 [ 887913362][  106069] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:13:36.058 +0000 [ 887923442][  106070] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:13:36.058 +0000 [ 887923442][  106070] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:13:46.125 +0000 [ 887933509][  106071] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:13:46.126 +0000 [ 887933510][  106071] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:13:56.188 +0000 [ 887943572][  106072] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:13:56.188 +0000 [ 887943572][  106072] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:13:57.002 +0000 [ 887944386][  106073] INFO  - threddsServlet - Remote host: 172.25.0.1 - Request: "GET /thredds/wms/POP/model/regional/copernicus/nrt/daily/ssh/latest.ncml?service=WMS&request=GetCapabilities&version=1.3.0 HTTP/1.0"
+2025-02-10T10:13:57.028 +0000 [ 887944412][  106073] ERROR - uk.ac.rdg.resc.edal.wms.WmsServlet - Problem with GET request
+com.google.common.util.concurrent.UncheckedExecutionException: java.lang.RuntimeException: SimpleDateFormat = yyyyMMdd fails on cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250109_20250109.nc ParseException:Unparseable date: "_2025010"
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2085) ~[guava-32.0.1-jre.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4011) ~[guava-32.0.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4919) ~[guava-32.0.1-jre.jar:?]
+	at thredds.server.wms.ThreddsWmsServlet.acquireCatalogue(ThreddsWmsServlet.java:128) ~[classes/:5.5]
+	at thredds.server.wms.ThreddsWmsServlet.dispatchWmsRequest(ThreddsWmsServlet.java:113) ~[classes/:5.5]
+	at uk.ac.rdg.resc.edal.wms.WmsServlet.doGet(WmsServlet.java:300) [edal-wms-1.5.2.0.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529) [servlet-api.jar:?]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623) [servlet-api.jar:?]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:199) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.91]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) [tomcat-websocket.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.91]
+	at org.apache.catalina.filters.CorsFilter.handleNonCORS(CorsFilter.java:331) [catalina.jar:9.0.91]
+	at org.apache.catalina.filters.CorsFilter.doFilter(CorsFilter.java:158) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.91]
+	at org.apache.catalina.filters.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:129) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.91]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337) [spring-security-web-5.7.12.jar:5.7.12]
+	at thredds.servlet.filter.RequestBracketingLogMessageFilter.doFilter(RequestBracketingLogMessageFilter.java:50) [classes/:5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.12.jar:5.7.12]
+	at thredds.servlet.filter.RequestQueryFilter.doFilter(RequestQueryFilter.java:90) [classes/:5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.12.jar:5.7.12]
+	at thredds.servlet.filter.HttpHeadFilter.doFilter(HttpHeadFilter.java:47) [classes/:5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346) [spring-security-web-5.7.12.jar:5.7.12]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221) [spring-security-web-5.7.12.jar:5.7.12]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186) [spring-security-web-5.7.12.jar:5.7.12]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) [spring-web-5.3.34.jar:5.3.34]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) [spring-web-5.3.34.jar:5.3.34]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.91]
+	at org.apache.logging.log4j.web.Log4jServletFilter.doFilter(Log4jServletFilter.java:71) [log4j-web-2.17.1.jar:2.17.1]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:168) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:144) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) [catalina.jar:9.0.91]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130) [catalina.jar:9.0.91]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) [catalina.jar:9.0.91]
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:660) [catalina.jar:9.0.91]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [catalina.jar:9.0.91]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:346) [catalina.jar:9.0.91]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:388) [tomcat-coyote.jar:9.0.91]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) [tomcat-coyote.jar:9.0.91]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:936) [tomcat-coyote.jar:9.0.91]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791) [tomcat-coyote.jar:9.0.91]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) [tomcat-coyote.jar:9.0.91]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) [tomcat-util.jar:9.0.91]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-util.jar:9.0.91]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) [tomcat-util.jar:9.0.91]
+	at java.lang.Thread.run(Thread.java:829) [?:?]
+Caused by: java.lang.RuntimeException: SimpleDateFormat = yyyyMMdd fails on cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250109_20250109.nc ParseException:Unparseable date: "_2025010"
+	at ucar.nc2.units.DateFromString.getDateUsingCompleteDateFormatWithOffset(DateFromString.java:236) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.units.DateFromString.getDateUsingDemarkatedCount(DateFromString.java:74) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.DateExtractorFromName.getDate(DateExtractorFromName.java:41) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.DateExtractorFromName.getCalendarDate(DateExtractorFromName.java:48) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.CollectionAbstract.extractDate(CollectionAbstract.java:165) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.CollectionAbstract.extractRunDateWithError(CollectionAbstract.java:239) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.MFileCollectionManager.extractRunDateWithError(MFileCollectionManager.java:526) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.CollectionAbstract$DateSorter.compare(CollectionAbstract.java:228) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.inventory.CollectionAbstract$DateSorter.compare(CollectionAbstract.java:225) ~[cdm-core-5.6.0.jar:5.6.0]
+	at java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[?:?]
+	at java.util.TimSort.sort(TimSort.java:234) ~[?:?]
+	at java.util.Arrays.sort(Arrays.java:1515) ~[?:?]
+	at java.util.ArrayList.sort(ArrayList.java:1750) ~[?:?]
+	at thredds.inventory.MFileCollectionManager.getFilesSorted(MFileCollectionManager.java:474) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.internal.ncml.Aggregation.makeDatasets(Aggregation.java:367) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.internal.ncml.Aggregation.build(Aggregation.java:348) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.internal.ncml.NcmlReader.readNetcdf(NcmlReader.java:528) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.internal.ncml.NcmlReader.readNcml(NcmlReader.java:483) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.internal.ncml.NcmlReader.readNcml(NcmlReader.java:385) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.internal.ncml.NcmlNetcdfFileProvider.open(NcmlNetcdfFileProvider.java:24) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets.openProtocolOrFile(NetcdfDatasets.java:431) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets.openFile(NetcdfDatasets.java:347) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets$StandardFileFactory.open(NetcdfDatasets.java:38) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets$StandardFileFactory.open(NetcdfDatasets.java:35) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.util.cache.FileCache.acquire(FileCache.java:287) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets.openOrAcquireFile(NetcdfDatasets.java:409) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets.acquireFile(NetcdfDatasets.java:386) ~[cdm-core-5.6.0.jar:5.6.0]
+	at ucar.nc2.dataset.NetcdfDatasets.acquireFile(NetcdfDatasets.java:361) ~[cdm-core-5.6.0.jar:5.6.0]
+	at thredds.core.DatasetManager.openNetcdfFile(DatasetManager.java:214) ~[classes/:5.5]
+	at thredds.core.TdsRequestedDataset.openAsNetcdfFile(TdsRequestedDataset.java:173) ~[classes/:5.5]
+	at thredds.core.TdsRequestedDataset.getNetcdfFile(TdsRequestedDataset.java:91) ~[classes/:5.5]
+	at thredds.server.wms.ThreddsWmsServlet.acquireNetcdfDataset(ThreddsWmsServlet.java:167) ~[classes/:5.5]
+	at thredds.server.wms.ThreddsWmsServlet.lambda$acquireCatalogue$1(ThreddsWmsServlet.java:129) ~[classes/:5.5]
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4924) ~[guava-32.0.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3570) ~[guava-32.0.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2312) ~[guava-32.0.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2189) ~[guava-32.0.1-jre.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2079) ~[guava-32.0.1-jre.jar:?]
+	... 52 more
+2025-02-10T10:14:06.256 +0000 [ 887953640][  106074] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:14:06.256 +0000 [ 887953640][  106074] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:14:16.335 +0000 [ 887963719][  106075] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:14:16.335 +0000 [ 887963719][  106075] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:14:26.397 +0000 [ 887973781][  106076] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:14:26.397 +0000 [ 887973781][  106076] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:14:36.457 +0000 [ 887983841][  106077] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:14:36.457 +0000 [ 887983841][  106077] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:14:46.521 +0000 [ 887993905][  106078] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:14:46.521 +0000 [ 887993905][  106078] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:14:56.580 +0000 [ 888003964][  106079] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:14:56.580 +0000 [ 888003964][  106079] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:15:06.642 +0000 [ 888014026][  106080] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:15:06.642 +0000 [ 888014026][  106080] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:15:16.734 +0000 [ 888024118][  106081] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:15:16.734 +0000 [ 888024118][  106081] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:15:26.816 +0000 [ 888034200][  106082] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:15:26.817 +0000 [ 888034201][  106082] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:15:36.878 +0000 [ 888044262][  106083] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:15:36.878 +0000 [ 888044262][  106083] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:15:46.940 +0000 [ 888054324][  106084] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:15:46.940 +0000 [ 888054324][  106084] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:15:57.030 +0000 [ 888064414][  106085] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:15:57.030 +0000 [ 888064414][  106085] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:16:07.103 +0000 [ 888074487][  106086] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:16:07.103 +0000 [ 888074487][  106086] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:16:17.186 +0000 [ 888084570][  106087] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:16:17.187 +0000 [ 888084571][  106087] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:16:27.265 +0000 [ 888094649][  106088] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:16:27.265 +0000 [ 888094649][  106088] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:16:37.333 +0000 [ 888104717][  106089] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:16:37.333 +0000 [ 888104717][  106089] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:16:47.401 +0000 [ 888114785][  106090] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:16:47.401 +0000 [ 888114785][  106090] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:16:57.471 +0000 [ 888124855][  106091] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:16:57.471 +0000 [ 888124855][  106091] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:17:07.546 +0000 [ 888134930][  106092] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:17:07.547 +0000 [ 888134931][  106092] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:17:17.641 +0000 [ 888145025][  106093] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:17:17.641 +0000 [ 888145025][  106093] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:17:27.708 +0000 [ 888155092][  106094] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:17:27.708 +0000 [ 888155092][  106094] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:17:37.769 +0000 [ 888165153][  106095] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:17:37.769 +0000 [ 888165153][  106095] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:17:47.832 +0000 [ 888175216][  106096] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:17:47.832 +0000 [ 888175216][  106096] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:17:57.924 +0000 [ 888185308][  106097] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:17:57.924 +0000 [ 888185308][  106097] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:18:07.987 +0000 [ 888195371][  106098] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:18:07.987 +0000 [ 888195371][  106098] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:18:18.048 +0000 [ 888205432][  106099] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:18:18.049 +0000 [ 888205433][  106099] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:18:28.137 +0000 [ 888215521][  106100] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:18:28.137 +0000 [ 888215521][  106100] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:18:38.200 +0000 [ 888225584][  106101] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:18:38.200 +0000 [ 888225584][  106101] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:18:48.264 +0000 [ 888235648][  106102] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:18:48.264 +0000 [ 888235648][  106102] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:18:58.335 +0000 [ 888245719][  106103] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:18:58.335 +0000 [ 888245719][  106103] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:19:08.397 +0000 [ 888255781][  106104] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:19:08.398 +0000 [ 888255782][  106104] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:19:18.467 +0000 [ 888265851][  106105] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:19:18.467 +0000 [ 888265851][  106105] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:19:28.555 +0000 [ 888275939][  106106] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:19:28.555 +0000 [ 888275939][  106106] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:19:38.645 +0000 [ 888286029][  106107] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:19:38.645 +0000 [ 888286029][  106107] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:19:48.711 +0000 [ 888296095][  106108] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:19:48.711 +0000 [ 888296095][  106108] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:19:58.774 +0000 [ 888306158][  106109] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:19:58.774 +0000 [ 888306158][  106109] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:20:08.858 +0000 [ 888316242][  106110] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:20:08.858 +0000 [ 888316242][  106110] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:20:18.931 +0000 [ 888326315][  106111] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:20:18.931 +0000 [ 888326315][  106111] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:20:29.015 +0000 [ 888336399][  106112] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:20:29.016 +0000 [ 888336400][  106112] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:20:39.092 +0000 [ 888346476][  106113] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:20:39.092 +0000 [ 888346476][  106113] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:20:49.175 +0000 [ 888356559][  106114] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:20:49.175 +0000 [ 888356559][  106114] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:20:59.239 +0000 [ 888366623][  106115] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:20:59.239 +0000 [ 888366623][  106115] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:21:09.303 +0000 [ 888376687][  106116] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:21:09.303 +0000 [ 888376687][  106116] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:21:19.371 +0000 [ 888386755][  106117] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:21:19.371 +0000 [ 888386755][  106117] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:21:29.431 +0000 [ 888396815][  106118] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:21:29.431 +0000 [ 888396815][  106118] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:21:39.505 +0000 [ 888406889][  106119] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:21:39.505 +0000 [ 888406889][  106119] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:21:49.566 +0000 [ 888416950][  106120] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:21:49.566 +0000 [ 888416950][  106120] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:21:59.646 +0000 [ 888427030][  106121] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:21:59.646 +0000 [ 888427030][  106121] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:22:09.711 +0000 [ 888437095][  106122] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:22:09.711 +0000 [ 888437095][  106122] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:22:19.771 +0000 [ 888447155][  106123] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:22:19.771 +0000 [ 888447155][  106123] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:22:29.836 +0000 [ 888457220][  106124] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:22:29.836 +0000 [ 888457220][  106124] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:22:39.901 +0000 [ 888467285][  106125] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:22:39.901 +0000 [ 888467285][  106125] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:22:49.972 +0000 [ 888477356][  106126] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:22:49.972 +0000 [ 888477356][  106126] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:23:00.035 +0000 [ 888487419][  106127] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:23:00.035 +0000 [ 888487419][  106127] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:23:10.131 +0000 [ 888497515][  106128] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:23:10.131 +0000 [ 888497515][  106128] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:23:20.208 +0000 [ 888507592][  106129] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:23:20.208 +0000 [ 888507592][  106129] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:23:30.272 +0000 [ 888517656][  106130] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:23:30.273 +0000 [ 888517657][  106130] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:23:40.340 +0000 [ 888527724][  106131] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:23:40.340 +0000 [ 888527724][  106131] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:23:50.478 +0000 [ 888537862][  106132] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:23:50.478 +0000 [ 888537862][  106132] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:24:00.547 +0000 [ 888547931][  106133] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:24:00.547 +0000 [ 888547931][  106133] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:24:10.610 +0000 [ 888557994][  106134] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:24:10.610 +0000 [ 888557994][  106134] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:24:20.694 +0000 [ 888568078][  106135] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:24:20.695 +0000 [ 888568079][  106135] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:24:30.758 +0000 [ 888578142][  106136] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:24:30.758 +0000 [ 888578142][  106136] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:24:40.828 +0000 [ 888588212][  106137] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:24:40.828 +0000 [ 888588212][  106137] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:24:50.949 +0000 [ 888598333][  106138] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:24:50.949 +0000 [ 888598333][  106138] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:25:01.013 +0000 [ 888608397][  106139] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:25:01.013 +0000 [ 888608397][  106139] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:25:11.093 +0000 [ 888618477][  106140] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:25:11.094 +0000 [ 888618478][  106140] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:25:21.158 +0000 [ 888628542][  106141] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:25:21.158 +0000 [ 888628542][  106141] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:25:31.236 +0000 [ 888638620][  106142] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:25:31.236 +0000 [ 888638620][  106142] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:25:41.296 +0000 [ 888648680][  106143] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:25:41.296 +0000 [ 888648680][  106143] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:25:51.357 +0000 [ 888658741][  106144] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:25:51.358 +0000 [ 888658742][  106144] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:26:01.421 +0000 [ 888668805][  106145] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:26:01.421 +0000 [ 888668805][  106145] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:26:11.495 +0000 [ 888678879][  106146] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:26:11.495 +0000 [ 888678879][  106146] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:26:21.567 +0000 [ 888688951][  106147] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:26:21.567 +0000 [ 888688951][  106147] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:26:31.624 +0000 [ 888699008][  106148] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:26:31.625 +0000 [ 888699009][  106148] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:26:41.714 +0000 [ 888709098][  106149] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:26:41.714 +0000 [ 888709098][  106149] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:26:51.775 +0000 [ 888719159][  106150] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:26:51.775 +0000 [ 888719159][  106150] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:27:01.849 +0000 [ 888729233][  106151] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:27:01.850 +0000 [ 888729234][  106151] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:27:11.918 +0000 [ 888739302][  106152] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:27:11.918 +0000 [ 888739302][  106152] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:27:21.987 +0000 [ 888749371][  106153] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:27:21.988 +0000 [ 888749372][  106153] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:27:32.056 +0000 [ 888759440][  106154] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:27:32.056 +0000 [ 888759440][  106154] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:27:42.124 +0000 [ 888769508][  106155] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:27:42.124 +0000 [ 888769508][  106155] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:27:52.233 +0000 [ 888779617][  106156] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:27:52.233 +0000 [ 888779617][  106156] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:28:02.301 +0000 [ 888789685][  106157] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:28:02.302 +0000 [ 888789686][  106157] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:28:12.360 +0000 [ 888799744][  106158] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:28:12.361 +0000 [ 888799745][  106158] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:28:22.444 +0000 [ 888809828][  106159] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:28:22.444 +0000 [ 888809828][  106159] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:28:32.546 +0000 [ 888819930][  106160] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:28:32.547 +0000 [ 888819931][  106160] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:28:42.614 +0000 [ 888829998][  106161] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:28:42.614 +0000 [ 888829998][  106161] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:28:52.703 +0000 [ 888840087][  106162] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:28:52.703 +0000 [ 888840087][  106162] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:29:02.765 +0000 [ 888850149][  106163] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:29:02.765 +0000 [ 888850149][  106163] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:29:12.844 +0000 [ 888860228][  106164] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:29:12.845 +0000 [ 888860229][  106164] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:29:22.908 +0000 [ 888870292][  106165] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:29:22.908 +0000 [ 888870292][  106165] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:29:32.976 +0000 [ 888880360][  106166] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:29:32.976 +0000 [ 888880360][  106166] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:29:43.039 +0000 [ 888890423][  106167] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:29:43.039 +0000 [ 888890423][  106167] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:29:53.098 +0000 [ 888900482][  106168] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:29:53.098 +0000 [ 888900482][  106168] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:30:03.159 +0000 [ 888910543][  106169] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:30:03.159 +0000 [ 888910543][  106169] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:30:13.221 +0000 [ 888920605][  106170] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:30:13.221 +0000 [ 888920605][  106170] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:30:23.303 +0000 [ 888930687][  106171] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:30:23.303 +0000 [ 888930687][  106171] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:30:33.367 +0000 [ 888940751][  106172] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:30:33.367 +0000 [ 888940751][  106172] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:30:43.435 +0000 [ 888950819][  106173] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:30:43.435 +0000 [ 888950819][  106173] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:30:53.518 +0000 [ 888960902][  106174] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:30:53.518 +0000 [ 888960902][  106174] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:31:03.581 +0000 [ 888970965][  106175] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:31:03.581 +0000 [ 888970965][  106175] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:31:13.659 +0000 [ 888981043][  106176] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:31:13.659 +0000 [ 888981043][  106176] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:31:23.721 +0000 [ 888991105][  106177] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:31:23.721 +0000 [ 888991105][  106177] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:31:33.787 +0000 [ 889001171][  106178] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:31:33.788 +0000 [ 889001172][  106178] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:31:43.854 +0000 [ 889011238][  106179] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:31:43.854 +0000 [ 889011238][  106179] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:31:53.927 +0000 [ 889021311][  106180] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:31:53.927 +0000 [ 889021311][  106180] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:32:04.014 +0000 [ 889031398][  106181] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:32:04.014 +0000 [ 889031398][  106181] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:32:14.096 +0000 [ 889041480][  106182] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:32:14.096 +0000 [ 889041480][  106182] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:32:24.163 +0000 [ 889051547][  106183] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:32:24.163 +0000 [ 889051547][  106183] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:32:34.236 +0000 [ 889061620][  106184] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:32:34.236 +0000 [ 889061620][  106184] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:32:44.304 +0000 [ 889071688][  106185] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:32:44.304 +0000 [ 889071688][  106185] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:32:54.364 +0000 [ 889081748][  106186] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:32:54.364 +0000 [ 889081748][  106186] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:33:04.423 +0000 [ 889091807][  106187] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:33:04.423 +0000 [ 889091807][  106187] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:33:14.494 +0000 [ 889101878][  106188] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:33:14.495 +0000 [ 889101879][  106188] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:33:24.557 +0000 [ 889111941][  106189] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:33:24.558 +0000 [ 889111942][  106189] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:33:34.624 +0000 [ 889122008][  106190] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:33:34.625 +0000 [ 889122009][  106190] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:33:44.685 +0000 [ 889132069][  106191] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:33:44.685 +0000 [ 889132069][  106191] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:33:54.765 +0000 [ 889142149][  106192] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:33:54.765 +0000 [ 889142149][  106192] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:34:04.834 +0000 [ 889152218][  106193] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:34:04.834 +0000 [ 889152218][  106193] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:34:14.904 +0000 [ 889162288][  106194] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:34:14.905 +0000 [ 889162289][  106194] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:34:24.976 +0000 [ 889172360][  106195] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:34:24.976 +0000 [ 889172360][  106195] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:34:35.051 +0000 [ 889182435][  106196] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:34:35.051 +0000 [ 889182435][  106196] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:34:45.143 +0000 [ 889192527][  106197] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:34:45.143 +0000 [ 889192527][  106197] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:34:55.221 +0000 [ 889202605][  106198] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:34:55.221 +0000 [ 889202605][  106198] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:35:05.293 +0000 [ 889212677][  106199] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:35:05.294 +0000 [ 889212678][  106199] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:35:15.354 +0000 [ 889222738][  106200] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:35:15.354 +0000 [ 889222738][  106200] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:35:25.474 +0000 [ 889232858][  106201] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:35:25.474 +0000 [ 889232858][  106201] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:35:35.542 +0000 [ 889242926][  106202] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:35:35.542 +0000 [ 889242926][  106202] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:35:45.630 +0000 [ 889253014][  106203] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:35:45.630 +0000 [ 889253014][  106203] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:35:55.699 +0000 [ 889263083][  106204] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:35:55.699 +0000 [ 889263083][  106204] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:36:05.767 +0000 [ 889273151][  106205] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:36:05.767 +0000 [ 889273151][  106205] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:36:15.832 +0000 [ 889283216][  106206] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:36:15.833 +0000 [ 889283217][  106206] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:36:25.909 +0000 [ 889293293][  106207] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:36:25.910 +0000 [ 889293294][  106207] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:36:35.976 +0000 [ 889303360][  106208] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:36:35.976 +0000 [ 889303360][  106208] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:36:46.046 +0000 [ 889313430][  106209] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:36:46.046 +0000 [ 889313430][  106209] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:36:56.106 +0000 [ 889323490][  106210] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:36:56.106 +0000 [ 889323490][  106210] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:37:06.170 +0000 [ 889333554][  106211] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:37:06.170 +0000 [ 889333554][  106211] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:37:16.243 +0000 [ 889343627][  106212] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:37:16.243 +0000 [ 889343627][  106212] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:37:26.310 +0000 [ 889353694][  106213] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:37:26.310 +0000 [ 889353694][  106213] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:37:36.380 +0000 [ 889363764][  106214] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:37:36.380 +0000 [ 889363764][  106214] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:37:46.442 +0000 [ 889373826][  106215] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:37:46.442 +0000 [ 889373826][  106215] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:37:56.525 +0000 [ 889383909][  106216] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:37:56.525 +0000 [ 889383909][  106216] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:38:06.597 +0000 [ 889393981][  106217] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:38:06.597 +0000 [ 889393981][  106217] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:38:16.662 +0000 [ 889404046][  106218] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:38:16.662 +0000 [ 889404046][  106218] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:38:26.725 +0000 [ 889414109][  106219] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:38:26.725 +0000 [ 889414109][  106219] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:38:36.811 +0000 [ 889424195][  106220] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:38:36.811 +0000 [ 889424195][  106220] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:38:46.872 +0000 [ 889434256][  106221] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:38:46.872 +0000 [ 889434256][  106221] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:38:56.945 +0000 [ 889444329][  106222] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:38:56.946 +0000 [ 889444330][  106222] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:39:07.007 +0000 [ 889454391][  106223] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:39:07.008 +0000 [ 889454392][  106223] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:39:17.070 +0000 [ 889464454][  106224] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:39:17.071 +0000 [ 889464455][  106224] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:39:27.145 +0000 [ 889474529][  106225] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:39:27.146 +0000 [ 889474530][  106225] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:39:37.214 +0000 [ 889484598][  106226] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:39:37.215 +0000 [ 889484599][  106226] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:39:47.282 +0000 [ 889494666][  106227] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:39:47.282 +0000 [ 889494666][  106227] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:39:57.352 +0000 [ 889504736][  106228] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:39:57.352 +0000 [ 889504736][  106228] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:40:07.434 +0000 [ 889514818][  106229] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:40:07.434 +0000 [ 889514818][  106229] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:40:17.498 +0000 [ 889524882][  106230] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:40:17.499 +0000 [ 889524883][  106230] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:40:27.568 +0000 [ 889534952][  106231] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:40:27.568 +0000 [ 889534952][  106231] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:40:37.629 +0000 [ 889545013][  106232] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:40:37.630 +0000 [ 889545014][  106232] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:40:47.705 +0000 [ 889555089][  106233] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:40:47.705 +0000 [ 889555089][  106233] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:40:57.779 +0000 [ 889565163][  106234] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:40:57.779 +0000 [ 889565163][  106234] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:41:07.855 +0000 [ 889575239][  106235] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:41:07.855 +0000 [ 889575239][  106235] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:41:17.945 +0000 [ 889585329][  106236] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:41:17.945 +0000 [ 889585329][  106236] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:41:28.005 +0000 [ 889595389][  106237] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:41:28.005 +0000 [ 889595389][  106237] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:41:38.080 +0000 [ 889605464][  106238] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:41:38.080 +0000 [ 889605464][  106238] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:41:48.167 +0000 [ 889615551][  106239] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:41:48.168 +0000 [ 889615552][  106239] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:41:58.233 +0000 [ 889625617][  106240] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:41:58.233 +0000 [ 889625617][  106240] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:42:08.293 +0000 [ 889635677][  106241] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:42:08.293 +0000 [ 889635677][  106241] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:42:18.360 +0000 [ 889645744][  106242] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:42:18.360 +0000 [ 889645744][  106242] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:42:28.435 +0000 [ 889655819][  106243] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:42:28.435 +0000 [ 889655819][  106243] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:42:38.527 +0000 [ 889665911][  106244] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:42:38.528 +0000 [ 889665912][  106244] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:42:48.614 +0000 [ 889675998][  106245] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:42:48.614 +0000 [ 889675998][  106245] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:42:58.685 +0000 [ 889686069][  106246] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:42:58.685 +0000 [ 889686069][  106246] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:43:08.747 +0000 [ 889696131][  106247] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:43:08.748 +0000 [ 889696132][  106247] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:43:18.826 +0000 [ 889706210][  106248] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:43:18.826 +0000 [ 889706210][  106248] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:43:28.887 +0000 [ 889716271][  106249] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:43:28.887 +0000 [ 889716271][  106249] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:43:38.952 +0000 [ 889726336][  106250] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:43:38.952 +0000 [ 889726336][  106250] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:43:49.019 +0000 [ 889736403][  106251] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:43:49.019 +0000 [ 889736403][  106251] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:43:59.083 +0000 [ 889746467][  106252] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:43:59.083 +0000 [ 889746467][  106252] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:44:09.141 +0000 [ 889756525][  106253] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:44:09.141 +0000 [ 889756525][  106253] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:44:19.208 +0000 [ 889766592][  106254] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:44:19.208 +0000 [ 889766592][  106254] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:44:29.280 +0000 [ 889776664][  106255] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:44:29.280 +0000 [ 889776664][  106255] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:44:39.345 +0000 [ 889786729][  106256] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:44:39.345 +0000 [ 889786729][  106256] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:44:49.436 +0000 [ 889796820][  106257] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:44:49.436 +0000 [ 889796820][  106257] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:44:59.513 +0000 [ 889806897][  106258] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:44:59.513 +0000 [ 889806897][  106258] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:45:09.575 +0000 [ 889816959][  106259] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:45:09.576 +0000 [ 889816960][  106259] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:45:19.637 +0000 [ 889827021][  106260] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:45:19.637 +0000 [ 889827021][  106260] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:45:29.700 +0000 [ 889837084][  106261] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:45:29.700 +0000 [ 889837084][  106261] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:45:39.776 +0000 [ 889847160][  106262] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:45:39.776 +0000 [ 889847160][  106262] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:45:49.841 +0000 [ 889857225][  106263] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:45:49.841 +0000 [ 889857225][  106263] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:45:59.902 +0000 [ 889867286][  106264] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:45:59.903 +0000 [ 889867287][  106264] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:46:09.990 +0000 [ 889877374][  106265] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:46:09.990 +0000 [ 889877374][  106265] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:46:20.083 +0000 [ 889887467][  106266] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:46:20.083 +0000 [ 889887467][  106266] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:46:30.147 +0000 [ 889897531][  106267] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:46:30.148 +0000 [ 889897532][  106267] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:46:40.210 +0000 [ 889907594][  106268] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:46:40.210 +0000 [ 889907594][  106268] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:46:50.299 +0000 [ 889917683][  106269] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:46:50.300 +0000 [ 889917684][  106269] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:47:00.390 +0000 [ 889927774][  106270] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:47:00.390 +0000 [ 889927774][  106270] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:47:10.451 +0000 [ 889937835][  106271] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:47:10.451 +0000 [ 889937835][  106271] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:47:20.514 +0000 [ 889947898][  106272] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:47:20.514 +0000 [ 889947898][  106272] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:47:30.592 +0000 [ 889957976][  106273] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:47:30.592 +0000 [ 889957976][  106273] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:47:40.656 +0000 [ 889968040][  106274] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:47:40.656 +0000 [ 889968040][  106274] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:47:50.714 +0000 [ 889978098][  106275] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:47:50.714 +0000 [ 889978098][  106275] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:48:00.853 +0000 [ 889988237][  106276] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:48:00.854 +0000 [ 889988238][  106276] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:48:10.917 +0000 [ 889998301][  106277] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:48:10.918 +0000 [ 889998302][  106277] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:48:20.980 +0000 [ 890008364][  106278] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:48:20.980 +0000 [ 890008364][  106278] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:48:31.040 +0000 [ 890018424][  106279] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:48:31.040 +0000 [ 890018424][  106279] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:48:41.145 +0000 [ 890028529][  106280] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:48:41.145 +0000 [ 890028529][  106280] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:48:51.208 +0000 [ 890038592][  106281] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:48:51.209 +0000 [ 890038593][  106281] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:49:01.267 +0000 [ 890048651][  106282] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:49:01.267 +0000 [ 890048651][  106282] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:49:11.346 +0000 [ 890058730][  106283] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:49:11.346 +0000 [ 890058730][  106283] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:49:21.409 +0000 [ 890068793][  106284] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:49:21.409 +0000 [ 890068793][  106284] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:49:31.470 +0000 [ 890078854][  106285] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:49:31.470 +0000 [ 890078854][  106285] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:49:41.570 +0000 [ 890088954][  106286] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:49:41.570 +0000 [ 890088954][  106286] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:49:51.646 +0000 [ 890099030][  106287] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:49:51.646 +0000 [ 890099030][  106287] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:50:01.709 +0000 [ 890109093][  106288] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:50:01.710 +0000 [ 890109094][  106288] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:50:11.767 +0000 [ 890119151][  106289] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:50:11.767 +0000 [ 890119151][  106289] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:50:21.846 +0000 [ 890129230][  106290] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:50:21.846 +0000 [ 890129230][  106290] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:50:31.922 +0000 [ 890139306][  106291] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:50:31.922 +0000 [ 890139306][  106291] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:50:41.988 +0000 [ 890149372][  106292] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:50:41.988 +0000 [ 890149372][  106292] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:50:52.070 +0000 [ 890159454][  106293] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:50:52.070 +0000 [ 890159454][  106293] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:51:02.146 +0000 [ 890169530][  106294] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:51:02.146 +0000 [ 890169530][  106294] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:51:12.211 +0000 [ 890179595][  106295] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:51:12.211 +0000 [ 890179595][  106295] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:51:22.279 +0000 [ 890189663][  106296] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:51:22.279 +0000 [ 890189663][  106296] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:51:32.366 +0000 [ 890199750][  106297] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:51:32.366 +0000 [ 890199750][  106297] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:51:42.447 +0000 [ 890209831][  106298] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:51:42.447 +0000 [ 890209831][  106298] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:51:52.508 +0000 [ 890219892][  106299] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:51:52.509 +0000 [ 890219893][  106299] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:52:02.586 +0000 [ 890229970][  106300] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:52:02.586 +0000 [ 890229970][  106300] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:52:12.650 +0000 [ 890240034][  106301] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:52:12.650 +0000 [ 890240034][  106301] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:52:22.713 +0000 [ 890250097][  106302] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:52:22.714 +0000 [ 890250098][  106302] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:52:32.778 +0000 [ 890260162][  106303] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:52:32.778 +0000 [ 890260162][  106303] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:52:42.846 +0000 [ 890270230][  106304] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:52:42.846 +0000 [ 890270230][  106304] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:52:52.921 +0000 [ 890280305][  106305] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:52:52.921 +0000 [ 890280305][  106305] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:53:02.986 +0000 [ 890290370][  106306] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:53:02.986 +0000 [ 890290370][  106306] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:53:13.080 +0000 [ 890300464][  106307] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:53:13.080 +0000 [ 890300464][  106307] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:53:23.140 +0000 [ 890310524][  106308] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:53:23.140 +0000 [ 890310524][  106308] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:53:33.206 +0000 [ 890320590][  106309] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:53:33.206 +0000 [ 890320590][  106309] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:53:43.267 +0000 [ 890330651][  106310] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:53:43.267 +0000 [ 890330651][  106310] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:53:53.335 +0000 [ 890340719][  106311] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:53:53.335 +0000 [ 890340719][  106311] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:54:03.399 +0000 [ 890350783][  106312] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:54:03.399 +0000 [ 890350783][  106312] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:54:13.474 +0000 [ 890360858][  106313] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:54:13.474 +0000 [ 890360858][  106313] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:54:23.556 +0000 [ 890370940][  106314] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:54:23.556 +0000 [ 890370940][  106314] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:54:33.636 +0000 [ 890381020][  106315] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:54:33.636 +0000 [ 890381020][  106315] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:54:43.701 +0000 [ 890391085][  106316] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:54:43.702 +0000 [ 890391086][  106316] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:54:53.764 +0000 [ 890401148][  106317] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:54:53.764 +0000 [ 890401148][  106317] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:55:03.828 +0000 [ 890411212][  106318] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:55:03.829 +0000 [ 890411213][  106318] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:55:13.888 +0000 [ 890421272][  106319] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:55:13.888 +0000 [ 890421272][  106319] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:55:23.951 +0000 [ 890431335][  106320] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:55:23.951 +0000 [ 890431335][  106320] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:55:34.014 +0000 [ 890441398][  106321] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:55:34.014 +0000 [ 890441398][  106321] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:55:44.092 +0000 [ 890451476][  106322] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:55:44.092 +0000 [ 890451476][  106322] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:55:54.156 +0000 [ 890461540][  106323] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:55:54.156 +0000 [ 890461540][  106323] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:56:04.227 +0000 [ 890471611][  106324] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:56:04.227 +0000 [ 890471611][  106324] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:56:14.293 +0000 [ 890481677][  106325] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:56:14.293 +0000 [ 890481677][  106325] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:56:24.380 +0000 [ 890491764][  106326] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:56:24.380 +0000 [ 890491764][  106326] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:56:34.446 +0000 [ 890501830][  106327] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:56:34.446 +0000 [ 890501830][  106327] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:56:44.515 +0000 [ 890511899][  106328] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:56:44.515 +0000 [ 890511899][  106328] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:56:54.582 +0000 [ 890521966][  106329] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:56:54.582 +0000 [ 890521966][  106329] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:57:04.660 +0000 [ 890532044][  106330] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:57:04.660 +0000 [ 890532044][  106330] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:57:14.721 +0000 [ 890542105][  106331] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:57:14.721 +0000 [ 890542105][  106331] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:57:24.782 +0000 [ 890552166][  106332] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:57:24.782 +0000 [ 890552166][  106332] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:57:34.855 +0000 [ 890562239][  106333] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:57:34.855 +0000 [ 890562239][  106333] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:57:44.913 +0000 [ 890572297][  106334] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:57:44.913 +0000 [ 890572297][  106334] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:57:54.970 +0000 [ 890582354][  106335] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:57:54.970 +0000 [ 890582354][  106335] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:58:05.028 +0000 [ 890592412][  106336] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:58:05.028 +0000 [ 890592412][  106336] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:58:15.087 +0000 [ 890602471][  106337] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:58:15.087 +0000 [ 890602471][  106337] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:58:25.155 +0000 [ 890612539][  106338] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:58:25.155 +0000 [ 890612539][  106338] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:58:35.220 +0000 [ 890622604][  106339] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:58:35.220 +0000 [ 890622604][  106339] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:58:45.281 +0000 [ 890632665][  106340] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:58:45.281 +0000 [ 890632665][  106340] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:58:55.342 +0000 [ 890642726][  106341] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:58:55.342 +0000 [ 890642726][  106341] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:59:05.401 +0000 [ 890652785][  106342] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:59:05.401 +0000 [ 890652785][  106342] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:59:15.459 +0000 [ 890662843][  106343] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:59:15.460 +0000 [ 890662844][  106343] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:59:25.561 +0000 [ 890672945][  106344] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:59:25.561 +0000 [ 890672945][  106344] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:59:35.670 +0000 [ 890683054][  106345] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:59:35.671 +0000 [ 890683055][  106345] INFO  - threddsServlet - Request Completed - 302 - -1 - 1
+2025-02-10T10:59:45.740 +0000 [ 890693124][  106346] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:59:45.740 +0000 [ 890693124][  106346] INFO  - threddsServlet - Request Completed - 302 - -1 - 0
+2025-02-10T10:59:55.806 +0000 [ 890703190][  106347] INFO  - threddsServlet - Remote host: 127.0.0.1 - Request: "GET /thredds/catalog.html HTTP/1.1"
+2025-02-10T10:59:55.806 +0000 [ 890703190][  106347] INFO  - threddsServlet - Request Completed - 302 - -1 - 0

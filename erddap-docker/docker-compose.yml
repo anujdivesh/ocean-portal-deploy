@@ -1,0 +1,48 @@
+services:
+  erddap: &erddap
+    image: axiom/docker-erddap:2.23-jdk17-openjdk
+    restart: unless-stopped
+    ports:
+      - "${PORT}:8080"
+    volumes:
+      - ./erddap/conf/robots.txt:/usr/local/tomcat/webapps/ROOT/robots.txt
+      - ./erddap/content:/usr/local/tomcat/content/erddap
+      - ./erddap/data:/erddapData
+      - ./datasets:/datasets
+    environment:
+      #note: these can also be set in /usr/local/tomcat/bin/config.sh
+      ERDDAP_MIN_MEMORY: 1G
+      ERDDAP_MAX_MEMORY: 2G
+      ERDDAP_bigParentDirectory: /erddapData/
+      ERDDAP_baseUrl: http://${IP}
+      ERDDAP_baseHttpsUrl: https://${IP}
+      ERDDAP_flagKeyKey: Ocean Predicition and Monitoring
+      ERDDAP_emailEverythingT: divesha@spc.int
+      ERDDAP_emailDailyReportsTo:
+      ERDDAP_emailFromAddress:
+      ERDDAP_emailUserName:
+      ERDDAP_emailPassword:
+      ERDDAP_emailProperties:
+      ERDDAP_emailSmtpHost:
+      ERDDAP_emailSmtpPort:
+      ERDDAP_adminInstitution: Pacific Community
+      ERDDAP_adminInstitutionUrl: https://ioos.github.io/
+      ERDDAP_adminIndividualName: Anuj Divesh
+      ERDDAP_adminPosition: Senior Systems Developer
+      ERDDAP_adminPhone: "9999999"
+      ERDDAP_adminAddress: "Suva"
+      ERDDAP_adminCity: Suva
+      ERDDAP_adminStateOrProvince: Central
+      ERDDAP_adminPostalCode: "1234"
+      ERDDAP_adminCountry: Fiji
+      ERDDAP_adminEmail: divesha@spc.int
+  generate_dataset_xml:
+    <<: *erddap
+    command: |
+      bash -c "cd webapps/erddap/WEB-INF/ && \
+      bash GenerateDatasetsXml.sh -verbose"
+  generate_data_structure:
+    <<: *erddap
+    command: |
+      bash -c "cd webapps/erddap/WEB-INF/ && \
+      bash DasDds.sh -verbose"

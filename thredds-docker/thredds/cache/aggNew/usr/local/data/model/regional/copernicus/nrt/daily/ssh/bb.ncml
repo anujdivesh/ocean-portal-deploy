@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<aggregation xmlns='http://www.unidata.ucar.edu/namespaces/netcdf/ncml-2.2' version='3' type='joinExistingOne' dimName='time' recheckEvery='15 sec' >
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250101_20250101.nc' ncoords='1' >
+    <cache varName='time' >2025-01-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250102_20250102.nc' ncoords='1' >
+    <cache varName='time' >2025-01-02T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250103_20250103.nc' ncoords='1' >
+    <cache varName='time' >2025-01-03T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250104_20250104.nc' ncoords='1' >
+    <cache varName='time' >2025-01-04T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250105_20250105.nc' ncoords='1' >
+    <cache varName='time' >2025-01-05T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250106_20250106.nc' ncoords='1' >
+    <cache varName='time' >2025-01-06T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250107_20250107.nc' ncoords='1' >
+    <cache varName='time' >2025-01-07T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250108_20250108.nc' ncoords='1' >
+    <cache varName='time' >2025-01-08T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250109_20250109.nc' ncoords='1' >
+    <cache varName='time' >2025-01-09T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250110_20250110.nc' ncoords='1' >
+    <cache varName='time' >2025-01-10T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250111_20250111.nc' ncoords='1' >
+    <cache varName='time' >2025-01-11T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250112_20250112.nc' ncoords='1' >
+    <cache varName='time' >2025-01-12T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250113_20250113.nc' ncoords='1' >
+    <cache varName='time' >2025-01-13T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250114_20250114.nc' ncoords='1' >
+    <cache varName='time' >2025-01-14T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250115_20250115.nc' ncoords='1' >
+    <cache varName='time' >2025-01-15T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250116_20250116.nc' ncoords='1' >
+    <cache varName='time' >2025-01-16T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250117_20250117.nc' ncoords='1' >
+    <cache varName='time' >2025-01-17T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250118_20250118.nc' ncoords='1' >
+    <cache varName='time' >2025-01-18T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250119_20250119.nc' ncoords='1' >
+    <cache varName='time' >2025-01-19T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250120_20250120.nc' ncoords='1' >
+    <cache varName='time' >2025-01-20T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250121_20250121.nc' ncoords='1' >
+    <cache varName='time' >2025-01-21T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250122_20250122.nc' ncoords='1' >
+    <cache varName='time' >2025-01-22T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250123_20250123.nc' ncoords='1' >
+    <cache varName='time' >2025-01-23T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250124_20250124.nc' ncoords='1' >
+    <cache varName='time' >2025-01-24T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250125_20250125.nc' ncoords='1' >
+    <cache varName='time' >2025-01-25T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250126_20250126.nc' ncoords='1' >
+    <cache varName='time' >2025-01-26T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250127_20250127.nc' ncoords='1' >
+    <cache varName='time' >2025-01-27T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250128_20250128.nc' ncoords='1' >
+    <cache varName='time' >2025-01-28T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250129_20250129.nc' ncoords='1' >
+    <cache varName='time' >2025-01-29T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250130_20250130.nc' ncoords='1' >
+    <cache varName='time' >2025-01-30T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250131_20250131.nc' ncoords='1' >
+    <cache varName='time' >2025-01-31T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250201_20250201.nc' ncoords='1' >
+    <cache varName='time' >2025-02-01T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250202_20250202.nc' ncoords='1' >
+    <cache varName='time' >2025-02-02T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250203_20250203.nc' ncoords='1' >
+    <cache varName='time' >2025-02-03T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250204_20250204.nc' ncoords='1' >
+    <cache varName='time' >2025-02-04T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250205_20250205.nc' ncoords='1' >
+    <cache varName='time' >2025-02-05T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250206_20250206.nc' ncoords='1' >
+    <cache varName='time' >2025-02-06T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250207_20250207.nc' ncoords='1' >
+    <cache varName='time' >2025-02-07T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250208_20250208.nc' ncoords='1' >
+    <cache varName='time' >2025-02-08T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250209_20250209.nc' ncoords='1' >
+    <cache varName='time' >2025-02-09T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250210_20250210.nc' ncoords='1' >
+    <cache varName='time' >2025-02-10T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250211_20250211.nc' ncoords='1' >
+    <cache varName='time' >2025-02-11T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250212_20250212.nc' ncoords='1' >
+    <cache varName='time' >2025-02-12T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250213_20250213.nc' ncoords='1' >
+    <cache varName='time' >2025-02-13T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250214_20250214.nc' ncoords='1' >
+    <cache varName='time' >2025-02-14T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250215_20250215.nc' ncoords='1' >
+    <cache varName='time' >2025-02-15T00:00:00Z </cache>
+  </netcdf>
+  <netcdf id='/usr/local/data/model/regional/copernicus/nrt/daily/ssh/cmems_obs-sl_glo_phy-ssh_nrt_allsat-l4-duacs-0.125deg_P1D_20250216_20250216.nc' ncoords='1' >
+    <cache varName='time' >2025-02-16T00:00:00Z </cache>
+  </netcdf>
+</aggregation>

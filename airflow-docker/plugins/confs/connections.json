@@ -1,0 +1,22 @@
+{
+  "nextcloud_api": {
+    "conn_type": "http",
+    "description": "Connection to your Nextcloud account",
+    "login": "YOUR_NEXTCLOUD_USER_LOGIN",
+    "password": "YOUR_NEXTCLOUD_PASSWORD",
+    "host": "YOUR_NEXTCLOUD_HOST",
+    "port": null,
+    "schema": "",
+    "extra": ""
+  },
+  "postgres_oceano": {
+    "conn_type": "postgres",
+    "description": "Connection to Reeftemps database oceano",
+    "login": "YOUR_DB_USER",
+    "password": "YOUR_DB_PASSWORD",
+    "host": "YOUR_DB_HOSTNAME",
+    "port": YOUR_DB_PORT,
+    "schema": "",
+    "extra": "{\"cursor\": \"dictcursor\"}"
+  }
+}
